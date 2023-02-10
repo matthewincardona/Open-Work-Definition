@@ -12,6 +12,10 @@ module.exports = {
           "primary-color": "var(--primary-color)",
           "secondary-color": "var(--secondary-color)"
         },
+        fontFamily: {
+          sans: ['Roboto', 'sans-serif'],
+          heading: ['Inter', 'sans-serif']
+        },
       },
     },
     variants: {},

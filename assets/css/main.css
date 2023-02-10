@@ -1,12 +1,33 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @tailwind base;
-
 @layer base {
     * {
-        background: rgba(191, 198, 255, .2);
+      background: rgba(191, 198, 255, .2) ;
       /* outline: 1px solid red */
+    }
+    body {
+      @apply font-heading;
+    }
+    h1 {
+      @apply text-5xl font-bold leading-10 mb-10 leading-[3rem];
+    }
+    h2 {
+      @apply text-2xl font-bold leading-7 mb-5;
+    }
+    h3 {
+      @apply text-xl font-bold leading-6;
+    }
+    .subtitle {
+      
+    }
+    a {
+      @apply text-primary-color hover:text-slate-600 inline-block;
+    }
+    .btn {
+      @apply transition-all text-white bg-primary-color rounded-full w-48 text-center font-bold py-2 border-primary-color border-2;
     }
 }
     
