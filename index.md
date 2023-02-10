@@ -96,16 +96,6 @@ title: "Home"
         </p>
     </div>
     <div>
-        <p class="subtitle">Technology</p>
-        <hr>
-        <p>Distribution Religion: Arguably the first “Open Hardware” license, from the manual/instructions for the
-            Sandin Image Processor) (1976-1978)
-            CopyLeft: Li-Chen Wang's Palo Alto Tiny BASIC (1976)
-            Free Software, the FSF and the GPL: Richard Stallman et al beginning in 1984-Present
-            Open Source: The term coined by Christine Peterson and the creation of the Open Software Initiative, 1998
-        </p>
-    </div>
-    <div>
         <p class="subtitle">Science</p>
         <hr>
         <p>The intellectual “Family Tree” of the term Open Work includes examples from technology, science, and the
