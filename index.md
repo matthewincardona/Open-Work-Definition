@@ -138,7 +138,7 @@ title: "Home"
         <hr>
         <p>Open Work Definition is an open source document for everyone who wants to contribute to the open work
             community.
-            Please don’t hesitate to contact us, send a pull request, and share your thoughts. </p>
+            Please don't hesitate to contact us, send a pull request, and share your thoughts. </p>
         <button>Request Edit</button>
     </div>
     <img src="" alt="">
