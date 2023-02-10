@@ -2,5 +2,13 @@
 ---
 
 @tailwind base;
+
+@layer base {
+    * {
+        background: rgba(191, 198, 255, .2);
+      /* outline: 1px solid red */
+    }
+}
+    
 @tailwind components;
 @tailwind utilities;
