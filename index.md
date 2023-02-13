@@ -4,7 +4,7 @@ title: "Home"
 ---
 
 <!-- Hero -->
-<div>
+<div class="" style="background-image: url('./assets/img/background-shapes/hero-bg.svg');">
     <h1>Open Work Definition</h1>
     <p>Subtitle will be place here with 36 pt regular weight.</p>
     <button>Request Edit</button>
