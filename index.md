@@ -28,7 +28,7 @@ title: "Home"
             We use the term Open Work to talk about a larger theory of practice in which Works of all types are
             developed, distributed, and collaborated upon.</p>
     </div>
-    <img src="" alt="">
+    <img src="./assets/img/illustrations/goal-of-open-work.svg" alt="">
 </div>
 
 <hr>
