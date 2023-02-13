@@ -24,4 +24,4 @@ bundle lock --add-platform x86_64-linux
 `.
 
 --------------------
-Wbsite design by Daechan Kim & Matthew Incardona.
+Website design by Daechan Kim & Matthew Incardona.
