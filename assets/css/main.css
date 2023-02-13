@@ -5,14 +5,14 @@
 @tailwind base;
 @layer base {
     * {
-      background: rgba(191, 198, 255, .2) ;
-      /* outline: 1px solid red */
+      /* background: rgba(191, 198, 255, .2) ; */
+      outline: 1px solid red
     }
     body {
       @apply font-heading;
     }
     h1 {
-      @apply text-5xl font-extrabold leading-10 mb-10 leading-[3rem];
+      @apply text-5xl font-semibold leading-[3.2rem] mb-4;
     }
     h2 {
       @apply text-2xl leading-7 mb-5;
@@ -28,6 +28,9 @@
     }
     .btn {
       @apply transition-all text-white bg-primary-color rounded-full w-48 text-center font-bold py-2 border-primary-color border-2;
+    }
+    hr {
+      @apply my-10
     }
 }
     

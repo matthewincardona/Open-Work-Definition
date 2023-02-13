@@ -6,7 +6,13 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
+  <div class="max-w-4xl m-auto">
+  {% include navigation.html %}
+</div>
   <body>
-    {{ content }}
+    <main class="mt-10 max-w-4xl m-auto">
+      {{ content }}
+    </main>
   </body>
+
 </html>

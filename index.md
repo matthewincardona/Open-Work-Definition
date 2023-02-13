@@ -4,11 +4,13 @@ title: "Home"
 ---
 
 <!-- Hero -->
-<div class="" style="background-image: url('./assets/img/background-shapes/hero-bg.svg');">
-    <h1>Open Work Definition</h1>
-    <p>Subtitle will be place here with 36 pt regular weight.</p>
-    <button>Request Edit</button>
-    <p>This project is maintained by Open@RIT<br>Hoston on GitHub Pages</p>
+<div class="py-48" style="background-image: url('./assets/img/background-shapes/hero-bg.svg'); background-size: contain; background-repeat: no-repeat;">
+    <div class="max-w-3xl m-auto">
+    <h1>Open Work <br>Definition</h1>
+        <p>Subtitle will be place here with 36 pt regular weight.</p>
+        <button class="mt-6">Request Edit</button>
+        <p>This project is maintained by Open@RIT<br>Hoston on GitHub Pages</p>
+</div>
 </div>
 
 <hr>
