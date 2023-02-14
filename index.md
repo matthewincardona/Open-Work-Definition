@@ -4,85 +4,102 @@ title: "Home"
 ---
 
 <!-- Hero -->
-<div class="py-32" style="background-image: url('./assets/img/background-shapes/hero-bg.svg'); background-size: contain; background-repeat: no-repeat;">
-    <div class="max-w-4xl m-auto">
-    <h1>Open Work <br>Definition</h1>
+<div class="flex justify-start items-center min-h-[70dvh]"
+    style="background-image: url('./assets/img/background-shapes/hero-bg.svg'); background-size: contain; background-repeat: no-repeat;">
+    <div class="inner--large">
+        <h1>Open Work <br>Definition</h1>
         <p>Subtitle will be place here with 36 pt regular weight.</p>
-        <button class="mt-6">Request Edit</button>
-        <p>This project is maintained by Open@RIT<br>Hoston on GitHub Pages</p>
-</div>
+        <button class="mt-6 mb-12">Request Edit</button>
+        <p class="text-xs">This project is maintained by Open@RIT<br>Hoston on GitHub Pages</p>
+    </div>
 </div>
 
-<hr>
+<hr class="section-divider bg-black border-none h-[2px] mt-[1rem]">
 
 <!-- Goal of Open Work -->
-<div class="flex">
-    <div>
-        <h2>Why Are We Using The Term <b>Open Work</b>?</h2>
+<div class="lg:grid grid-cols-2 justify-center inner--small">
+    <div class="">
+        <h2 class="">Why Are We Using The Term <br><b>Open Work</b>?</h2>
         <p class="subtitle">Goal of Open Work</p>
-        <hr>
+        <hr class="subtitle-divider">
         <p>People produce and collaborate on all different types of work within academia and beyond. Different types of
             works can be released and developed among communities of practice in different ways.
+            <br><br>
             To treat each type of Open Work as its own silo hinders the ability for these works to be used
             interchangeably among each other.
+            <br><br>
             We use the term Open Work to talk about a larger theory of practice in which Works of all types are
-            developed, distributed, and collaborated upon.</p>
+            developed, distributed, and collaborated upon.
+        </p>
     </div>
-    <img src="./assets/img/illustrations/goal-of-open-work.svg" alt="">
+    <img class="place-self-end" src="./assets/img/illustrations/goal-of-open-work.svg" alt="">
 </div>
 
-<hr>
+<hr class="section-divider">
 
 <!-- Definition of Open Work -->
 
-<h2><b>Open Work</b> Definition Version 0.1</h2>
-<div> <!-- set bg img here -->
-    <p class="subtitle">Definition of Open Work</p>
-    <p>An Open Work delineates the meaning of “Open” with respect to work products and projects that are released into
-        the public domain or under a license recognized by an entity such as, but not limited to, the Open Source
-        Initiative (OSI), the Free Software Foundation GNU, the Creative Commons (CC) or the Open Knowledge Foundation
-        (OKF) with the intent of promoting a robust community of collaboration around the work itself and other work
-        that it may interoperate with.</p>
+<h2 class="text-center mb-12"><b>Open Work</b> Definition Version 0.1</h2>
+
+<div class="max-w-3xl flex justify-center flex-col m-auto">
+    <img src="./assets/img/illustrations/browser-window.svg" alt="">
+    <img class="mt-[-6rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
 </div>
-<img src="" alt="">
+
 
 <!-- Definition of... cards -->
-<div class="flex">
-    <div class="card">
-        <p><b>Definition of License</b></p>
-        <p>The term license refers to the legal conditions under which the work is provided.</p>
-        <img src="" alt=""> <!-- card icon -->
+<div class="mt-28 flex flex-wrap space-x-0 p-8 justify-center gap-14">
+
+    <div class="bg-[#F2F2F2] rounded-3xl w-80 px-8 py-6">
+        <div class="flex flex-col items-start align-top">
+            <p class="mb-2"><b>Definition of License</b></p>
+            <p>The term license refers to the legal conditions under which the work is provided.</p>
+            <img src="" alt=""> <!-- card icon -->
+        </div>
     </div>
-    <div class="card">
-        <p><b>Definition of Work</b></p>
-        <p>The term “Work” will be used to denote the item or piece of knowledge being transferred.</p>
-        <img src="" alt=""> <!-- card icon -->
+
+    <div class="bg-[#F2F2F2] rounded-3xl w-80 px-8 py-6">
+        <div class="flex flex-col items-start align-top">
+            <p class="mb-2"><b>Definition of Work</b></p>
+            <p>The term “Work” will be used to denote the item or piece of knowledge being transferred.</p>
+            <img src="" alt=""> <!-- card icon -->
+        </div>
     </div>
+
 </div>
-<div class="flex">
-    <div class="card">
-        <p><b>Definition of Open</b></p>
-        <p>This essential meaning of “Open” aligns with that in the Open Source Definition and is synonymous with “free”
-            or “libre” as in the Free Software Definition and Definition of Free Cultural Works.</p>
-        <img src="" alt=""> <!-- card icon -->
+<div class="flex flex-wrap space-x-0 p-8 justify-center gap-14">
+
+    <div class="bg-[#F2F2F2] rounded-3xl w-80 px-8 py-6">
+        <div class="flex flex-col items-start align-top">
+            <p class="mb-2"><b>Definition of Open</b></p>
+            <p>This essential meaning of “Open” aligns with that in the Open Source Definition and is synonymous with
+                “free”
+                or “libre” as in the Free Software Definition and Definition of Free Cultural Works.</p>
+            <img src="" alt=""> <!-- card icon -->
+        </div>
     </div>
-    <div class="card">
-        <p><b>Definition of Public Domain</b></p>
-        <p>The term public domain denotes the absence of copyright and similar restrictions, whether by default or
-            waiver of all such conditions.</p>
-        <img src="" alt=""> <!-- card icon -->
+
+    <div class="bg-[#F2F2F2] rounded-3xl w-80 px-8 py-6">
+        <div class="flex flex-col items-start align-top">
+            <p class="mb-2"><b>Definition of Public Domain</b></p>
+            <p>The term public domain denotes the absence of copyright and similar restrictions, whether by default or
+                waiver of all such conditions.</p>
+            <img src="" alt=""> <!-- card icon -->
+        </div>
     </div>
+
 </div>
 
-<hr>
+<hr class="section-divider">
 
 <!-- The Roots of Open Work -->
-<h2>The <b>Roots</b> of "Open Work"</h2>
-<p>The intellectual “Family Tree” of the term Open Work includes examples from technology, science, and the arts.</p>
-<div class="flex">
-    <div>
+<h2 class="text-center">The <b>Roots</b> of "Open Work"</h2>
+<p class="w-96 text-center m-auto">The intellectual “Family Tree” of the term Open Work includes examples from
+    technology, science, and the arts.</p>
+<div class="mt-20 flex justify-center">
+    <div class="border-r-2 border-black w-100">
         <p class="subtitle">Technology</p>
-        <hr>
+        <hr class="subtitle-divider">
         <p>Distribution Religion: Arguably the first “Open Hardware” license, from the manual/instructions for the
             Sandin Image Processor) (1976-1978)
             CopyLeft: Li-Chen Wang's Palo Alto Tiny BASIC (1976)
@@ -90,16 +107,16 @@ title: "Home"
             Open Source: The term coined by Christine Peterson and the creation of the Open Software Initiative, 1998
         </p>
     </div>
-    <div>
+    <div class="border-r-2 border-black">
         <p class="subtitle">Literature and the Arts</p>
-        <hr>
+        <hr class="subtitle-divider">
         <p>Umberto Eco's “The Open Work” is art with “two constituents: a multiplicity of meanings and the participation
             of the audience."
         </p>
     </div>
     <div>
         <p class="subtitle">Science</p>
-        <hr>
+        <hr class="subtitle-divider">
         <p>The intellectual “Family Tree” of the term Open Work includes examples from technology, science, and the
             arts.
         </p>

@@ -6,31 +6,42 @@
 @layer base {
     * {
       /* background: rgba(191, 198, 255, .2) ; */
-      outline: 1px solid red
+      /* outline: 1px solid red */
     }
     body {
       @apply font-heading;
     }
     h1 {
-      @apply text-5xl font-semibold leading-[3.2rem] mb-4;
+      @apply text-5xl font-semibold leading-[3rem] mb-4;
     }
     h2 {
-      @apply text-2xl leading-7 mb-5;
+      @apply text-2xl leading-8 mb-5;
     }
     h3 {
       @apply text-xl leading-6;
     }
     .subtitle {
-      
+      @apply text-xl font-semibold;
     }
     a {
       @apply text-primary-color hover:text-slate-600 inline-block;
     }
-    .btn {
-      @apply transition-all text-white bg-primary-color rounded-full w-48 text-center font-bold py-2 border-primary-color border-2;
+    button {
+      @apply transition-all text-sm text-black w-40 py-[3px] border-black border-[1px] rounded-full;
     }
-    hr {
-      @apply my-10
+    .section-divider {
+      @apply my-20;
+    }
+    .subtitle-divider {
+      @apply mt-2 mb-4 w-12 h-1;
+      color: black;
+      background-color: black;
+    }
+    .inner--large {
+      @apply w-full max-w-4xl m-auto;
+    }
+    .inner--small {
+      @apply w-full max-w-3xl m-auto;
     }
 }
     
