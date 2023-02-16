@@ -42,10 +42,10 @@
       background-color: black;
     }
     .inner--large {
-      @apply w-full max-w-5xl m-auto;
+      @apply w-full max-w-[65rem] m-auto;
     }
     .inner--small {
-      @apply w-full max-w-3xl m-auto;
+      @apply w-full max-w-[50rem] m-auto;
     }
     .accordion-button--gray {
       @apply 
