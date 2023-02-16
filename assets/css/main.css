@@ -4,12 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @tailwind base;
 @layer base {
+  :root {
+    --light-gray: #F2F2F2;
+    --primary-text: #363636;
+  }
     * {
       /* background: rgba(191, 198, 255, .2) ; */
       /* outline: 1px solid red */
     }
     body {
-      @apply font-heading;
+      @apply font-heading text-[#363636];
     }
     h1 {
       @apply text-5xl font-semibold leading-[3rem] mb-4;
@@ -30,7 +34,7 @@
       @apply transition-all text-sm text-black w-40 py-[3px] border-black border-[1px] rounded-full;
     }
     .section-divider {
-      @apply my-20;
+      @apply my-20 border-none bg-[#D4D4D4] h-[2px];
     }
     .subtitle-divider {
       @apply mt-2 mb-4 w-12 h-1;
@@ -42,6 +46,31 @@
     }
     .inner--small {
       @apply w-full max-w-3xl m-auto;
+    }
+    .accordion-button--gray {
+      @apply 
+      relative
+      flex
+      items-center
+      w-full
+      py-4
+      px-5
+      text-base 
+    text-[#363636] 
+      text-left
+      border-0
+      rounded-none
+      transition
+      focus:outline-none
+    }
+
+    .accordion-button:not(.collapsed) {
+      box-shadow: none;
+      background-color: #F2F2F2;
+    }
+    
+    .accordion, .accordion-item, .accordion-button {
+      border-radius: 15px !important;
     }
 }
     

@@ -4,8 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
+      <!-- add tw-elements -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
+  
   <div class="w-full relative mb-20">
   {% include navigation.html %}
 </div>
@@ -13,6 +18,7 @@
     <main class="w-full mt-10 max-w-6xl m-auto">
       {{ content }}
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
   </body>
 
 </html>
