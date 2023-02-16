@@ -13,7 +13,7 @@
       /* outline: 1px solid red */
     }
     body {
-      @apply font-heading text-[#363636];
+      @apply font-heading text-[#363636] font-light;
     }
     h1 {
       @apply text-5xl font-semibold leading-[3rem] mb-4;
@@ -31,7 +31,7 @@
       @apply text-primary-color hover:text-slate-600 inline-block;
     }
     button {
-      @apply transition-all text-sm text-black w-40 py-[3px] border-black border-[1px] rounded-full;
+      @apply transition-all text-sm text-black w-44 py-[5px] border-black border-[1px] rounded-full;
     }
     .section-divider {
       @apply my-20 border-none bg-[#D4D4D4] h-[2px];
@@ -42,7 +42,7 @@
       background-color: black;
     }
     .inner--large {
-      @apply w-full max-w-4xl m-auto;
+      @apply w-full max-w-5xl m-auto;
     }
     .inner--small {
       @apply w-full max-w-3xl m-auto;
