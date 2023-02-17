@@ -6,7 +6,7 @@ title: "Home"
 <!-- load dynamic tailwind elements -->
 
 <!-- Hero -->
-<div class="flex justify-start items-center min-h-[70dvh]"
+<div class="flex justify-start items-center py-24"
     style="background-image: url('./assets/img/background-shapes/hero-bg.svg'); background-size: contain; background-repeat: no-repeat;">
     <div class="inner--large">
         <h1>Open Work <br>Definition</h1>
@@ -19,7 +19,7 @@ title: "Home"
 <hr class="section-divider bg-black border-none h-[2px] mt-[1rem]">
 
 <!-- Goal of Open Work -->
-<div class="lg:grid grid-cols-2 justify-center inner--small">
+<div class="lg:grid grid-cols-2 justify-center inner--small gap-12">
     <div class="">
         <h2 class="">Why Are We Using The Term <br><b>Open Work</b>?</h2>
         <p class="subtitle">Goal of Open Work</p>
@@ -54,7 +54,7 @@ title: "Home"
 
     <div class="relative bg-[#F2F2F2] rounded-3xl w-[22rem] px-8 py-10 pr-16">
         <div class="flex flex-col items-start align-top">
-            <p class="mb-2"><b>Definition of License</b></p>
+            <p class="mb-2 font-bold"><b>Definition of License</b></p>
             <p>The term license refers to the legal conditions under which the work is provided.</p>
             <img class="absolute top-[-12px] right-[-12px] w-14" src="./assets/img/icons/no-copyright.svg" alt="">
             <!-- card icon -->
@@ -63,7 +63,7 @@ title: "Home"
 
     <div class="relative bg-[#F2F2F2] rounded-3xl w-[22rem] px-8 py-10 pr-16">
         <div class="flex flex-col items-start align-top">
-            <p class="mb-2"><b>Definition of Work</b></p>
+            <p class="mb-2 font-bold"><b>Definition of Work</b></p>
             <p>The term “Work” will be used to denote the item or piece of knowledge being transferred.</p>
             <img class="absolute top-[-12px] right-[-12px] w-14" src="./assets/img/icons/documents-2.svg" alt="">
             <!-- card icon -->
@@ -74,7 +74,7 @@ title: "Home"
 <div class="flex flex-wrap space-x-0 p-8 justify-center gap-14">
     <div class="relative bg-[#F2F2F2] rounded-3xl w-[22rem] px-8 py-10 pr-16">
         <div class="flex flex-col items-start align-top">
-            <p class="mb-2"><b>Definition of Open</b></p>
+            <p class="mb-2 font-bold"><b>Definition of Open</b></p>
             <p>This essential meaning of “Open” aligns with that in the Open Source Definition and is synonymous with
                 “free”
                 or “libre” as in the Free Software Definition and Definition of Free Cultural Works.</p>
@@ -85,7 +85,7 @@ title: "Home"
 
     <div class="relative bg-[#F2F2F2] rounded-3xl w-[22rem] px-8 py-10 pr-16">
         <div class="flex flex-col items-start align-top">
-            <p class="mb-2"><b>Definition of Public Domain</b></p>
+            <p class="mb-2 font-bold"><b>Definition of Public Domain</b></p>
             <p>The term public domain denotes the absence of copyright and similar restrictions, whether by default or
                 waiver of all such conditions.</p>
             <img class="absolute top-[-12px] right-[-12px] w-12" src="./assets/img/icons/no-copyright-2.svg" alt="">
@@ -102,7 +102,8 @@ title: "Home"
 <p class="max-w-sm text-center m-auto">The intellectual “Family Tree” of the term Open Work includes examples from
     technology, science, and the arts.</p>
 <div class="inner--large mt-20 grid grid-cols-7 justify-center gap-4">
-    <div class=" col-span-3 border-r-2 border-black pr-6">
+    <div
+        class="relative col-span-3 after:absolute after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] pr-6">
         <p class="subtitle">Technology</p>
         <hr class="subtitle-divider">
         <p>Distribution Religion: Arguably the first “Open Hardware” license, from the manual/instructions for the
@@ -115,7 +116,8 @@ title: "Home"
             Open Source: The term coined by Christine Peterson and the creation of the Open Software Initiative, 1998
         </p>
     </div>
-    <div class="col-span-2 border-r-2 border-black pr-6">
+    <div
+        class="relative col-span-2 after:absolute after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] pr-6">
         <p class="subtitle">Literature and the Arts</p>
         <hr class="subtitle-divider">
         <p>Umberto Eco's “The Open Work” is art with “two constituents: a multiplicity of meanings and the participation
@@ -135,29 +137,26 @@ title: "Home"
 <hr class="section-divider">
 
 <!-- Types of Open Work -->
-<h2 class="text-center">Types of <b>Open Work</b></h2>
+<h2 class="text-center mb-14">Types of <b>Open Work</b></h2>
 <div class="grid grid-cols-2 gap-8 inner--small m-auto justify-center">
-    <div class="accordion space-y-4" id="accordionExample">
+    <div class="accordion space-y-4" id="accordionCol1">
         <div class="accordion-item bg-[#F2F2F2] rounded-xl">
             <h2 class="accordion-header mb-0" id="headingOne">
                 <button class="accordion-button accordion-button--gray collapsed" type="button"
                     data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                     aria-controls="collapseOne">
-                    <img class="mr-4" src="./assets/img/icons/data.svg" alt="">
-                    Open Access Journals
+                    <img class="mr-4" src="./assets/img/icons/educational-resources.svg" alt="">
+                    Open Educational Resources
                 </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
+                data-bs-parent="#accordionCol1">
                 <div class="accordion-body py-4 px-5">
-                    Open Access is the free, immediate, online availability of research articles combined with the
-                    rights to
-                    use these articles fully in the digital environment. Open Access is the needed modern update for the
-                    communication of research that fully utilizes the Internet for what it was originally built to
-                    do—accelerate research.
+                    OER are openly licensed educational materials — everything from a single lesson plan to an entire
+                    textbook — that are free to use, customize, and share.
                     <br>
-                    <a href="https://sparcopen.org/open-access/" target="_blank" rel="noopener noreferrer">SPARC on Open
-                        Access Journals</a>
+                    <a href="https://www.oercommons.org/oer-101" rel="noopener noreferrer">OER
+                        Commons</a>
                 </div>
             </div>
         </div>
@@ -166,151 +165,186 @@ title: "Home"
                 <button class="accordion-button accordion-button--gray collapsed" type="button"
                     data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                     aria-controls="collapseTwo">
+                    <img class="mr-4" src="./assets/img/icons/innovation.svg" alt="">
+                    Open Innovation
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionCol1">
+                <div class="accordion-body py-4 px-5">
+                    "A distributed innovation process based on purposively managed knowledge flows across organizational
+                    boundaries, using pecuniary and non-pecuniary mechanisms in line with the organization's business
+                    model". <sup><a href="https://en.wikipedia.org/wiki/Open_innovation#cite_note-4">[4]</a></sup> —
+                    Henry Chesbrough
+                    <br>
+                    This more recent definition acknowledges that open innovation is not solely firm-centric: it also
+                    includes <a href="https://en.wikipedia.org/wiki/Creative_consumer"> creative consumers</a> <a
+                        href="https://en.wikipedia.org/wiki/Open_innovation#cite_note-5"><sup>[5]</sup></a> and
+                    communities of user innovators. <a
+                        href="https://en.wikipedia.org/wiki/Open_innovation#cite_note-6"><sup>[6]</sup></a>
+                    <br>
+                    <a href="http://openinnovation.net/about-2/open-innovation-definition/"
+                        rel="noopener noreferrer">Open Innovation Community</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingThree">
+                <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    <img class="mr-4" src="./assets/img/icons/software.svg" alt="">
+                    Open Source Software
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionCol1">
+                <div class="accordion-body py-4 px-5">
+                    Open source software is code that is designed to be publicly accessible—anyone can see, modify, and
+                    distribute the code as they see fit.
+                    <br>
+                    <a href="https://www.redhat.com/en/topics/open-source/what-is-open-source">Red Hat, Inc.
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingFour">
+                <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                    aria-controls="collapseFour">
+                    <img class="mr-4" src="./assets/img/icons/scholarship.svg" alt="">
+                    Open Scholarship
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionCol1">
+                <div class="accordion-body py-4 px-5">
+                    Open Scholarship is defined by the Association of Research Libraries (ARL) as encompassing open
+                    access, open data, open educational resources, and all other forms of openness in the scholarly and
+                    research environment, is changing how knowledge is created and shared.
+                    <br>
+                    <a href="https://guides.library.pdx.edu/c.php?g=931273&p=6711316">Portland State University Library
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingFive">
+                <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                    aria-controls="collapseFive">
                     <img class="mr-4" src="./assets/img/icons/data.svg" alt="">
                     Open Data/Open Knowledge
                 </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionCol1">
                 <div class="accordion-body py-4 px-5">
                     A data set that is released freely for any to use and modify.
                     <br>
-                    Open definition: <a href="https://opendefinition.org/" target="_blank"
-                        rel="noopener noreferrer">Open Knowledge Foundation</a>
+                    Open definition: <a href="https://opendefinition.org/">Open Knowledge Foundation </a>
                     <br>
-                    Open knowledge: <a href="https://okfn.org/opendata/" target="_blank" rel="noopener noreferrer">Open
-                        Knowledge Foundation</a>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
-            <h2 class="accordion-header mb-0" id="headingThree">
-                <button class="accordion-button accordion-button--gray collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                    aria-controls="collapseThree">
-                    <img class="mr-4" src="./assets/img/icons/data.svg" alt="">
-                    Open Design
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body py-4 px-5">
-                    A data set that is released freely for any to use and modify.
-                    <br>
-                    Any piece of design work released freely for anyone to use or modify.
-                    <br>
-                    <a href="https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/blob/master/open.design_definition/open.design.definition.md"
-                        target="_blank" rel="noopener noreferrer">Open Design Working Group Definition</a>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
-            <h2 class="accordion-header mb-0" id="headingThree">
-                <button class="accordion-button accordion-button--gray collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                    aria-controls="collapseThree">
-                    <img class="mr-4" src="./assets/img/icons/data.svg" alt="">
-                    Open Design
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body py-4 px-5">
-                    A data set that is released freely for any to use and modify.
-                    <br>
-                    Any piece of design work released freely for anyone to use or modify.
-                    <br>
-                    <a href="https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/blob/master/open.design_definition/open.design.definition.md"
-                        target="_blank" rel="noopener noreferrer">Open Design Working Group Definition</a>
+                    Open knowledge: <a href="https://okfn.org/opendata/">Open Knowledge Foundation </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="accordion space-y-4" id="accordionExample">
+    <div class="accordion space-y-4" id="accordionCol2">
         <div class="accordion-item bg-[#F2F2F2] rounded-xl">
-            <h2 class="accordion-header mb-0" id="headingOne">
+            <h2 class="accordion-header mb-0" id="headingSix">
                 <button class="accordion-button accordion-button--gray collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                    aria-controls="collapseOne">
-                    <img class="mr-4" src="./assets/img/icons/data.svg" alt="">
+                    data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                    aria-controls="collapseSix">
+                    <img class="mr-4" src="./assets/img/icons/hardware.svg" alt="">
+                    Open Hardware
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix"
+                data-bs-parent="#accordionCol2">
+                <div class="accordion-body py-4 px-5">
+                    Open source hardware is hardware whose design is made publicly available so that anyone can study,
+                    modify, distribute, make, and sell the design or hardware based on that design.
+                    <br>
+                    <a href="https://www.oshwa.org/definition/">Open Source Hardware Association</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingSeven">
+                <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
+                    aria-controls="collapseSeven">
+                    <img class="mr-4" src="./assets/img/icons/science.svg" alt="">
+                    Open Science
+                </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                data-bs-parent="#accordionCol2">
+                <div class="accordion-body py-4 px-5">
+                    Open science encompasses unhindered access to scientific articles, access to data from public research, and collaborative research enabled by ICT tools and incentives.
+                    <br>
+                    Open definition: <a href="https://www.oecd.org/sti/inno/open-science.htm"> Organisation for Economic Co-operation and Development</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingEight">
+                <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
+                    aria-controls="collapseEight">
+                    <img class="mr-4" src="./assets/img/icons/design.svg" alt="">
+                    Open Design
+                </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                data-bs-parent="#accordionCol2">
+                <div class="accordion-body py-4 px-5">
+                    Any piece of design work released freely for anyone to use or modify.
+                    <br>
+                    <a href="https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/blob/master/open.design_definition/open.design.definition.md">Open Design Working Group Definition</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingNine">
+                <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false"
+                    aria-controls="collapseNine">
+                    <img class="mr-4" src="./assets/img/icons/research.svg" alt="">
+                    Open Research
+                </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                data-bs-parent="#accordionCol2">
+                <div class="accordion-body py-4 px-5">
+                    Open research comprises openness throughout the research cycle through collaborative working and sharing and making research methodology, software, code, and equipment freely available online, along with instructions for using it.                    
+                    <br>
+                    Open research includes making publications freely available online (open access) in addition to the underlying research data (open data).
+                    <br>
+                    <a href="http://www.exeter.ac.uk/research/openresearch/about/explained/">University of Exeter (UK) 
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingTen">
+                <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false"
+                    aria-controls="collapseTen">
+                    <img class="mr-4" src="./assets/img/icons/journals.svg" alt="">
                     Open Access Journals
                 </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
+            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                data-bs-parent="#accordionCol2">
                 <div class="accordion-body py-4 px-5">
-                    Open Access is the free, immediate, online availability of research articles combined with the
-                    rights to
-                    use these articles fully in the digital environment. Open Access is the needed modern update for the
-                    communication of research that fully utilizes the Internet for what it was originally built to
-                    do—accelerate research.
+                    Open Access is the free, immediate, online availability of research articles combined with the rights to use these articles fully in the digital environment.
                     <br>
-                    <a href="https://sparcopen.org/open-access/" target="_blank" rel="noopener noreferrer">SPARC on Open
-                        Access Journals</a>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
-            <h2 class="accordion-header mb-0" id="headingTwo">
-                <button class="accordion-button accordion-button--gray collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                    aria-controls="collapseTwo">
-                    <img class="mr-4" src="./assets/img/icons/data.svg" alt="">
-                    Open Data/Open Knowledge
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body py-4 px-5">
-                    A data set that is released freely for any to use and modify.
+                    Open Access is the needed modern update for the communication of research that fully utilizes the Internet for what it was originally built to do—accelerate research.                    <br>
                     <br>
-                    Open definition: <a href="https://opendefinition.org/" target="_blank"
-                        rel="noopener noreferrer">Open Knowledge Foundation</a>
-                    <br>
-                    Open knowledge: <a href="https://okfn.org/opendata/" target="_blank" rel="noopener noreferrer">Open
-                        Knowledge Foundation</a>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
-            <h2 class="accordion-header mb-0" id="headingThree">
-                <button class="accordion-button accordion-button--gray collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                    aria-controls="collapseThree">
-                    <img class="mr-4" src="./assets/img/icons/data.svg" alt="">
-                    Open Design
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body py-4 px-5">
-                    A data set that is released freely for any to use and modify.
-                    <br>
-                    Any piece of design work released freely for anyone to use or modify.
-                    <br>
-                    <a href="https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/blob/master/open.design_definition/open.design.definition.md"
-                        target="_blank" rel="noopener noreferrer">Open Design Working Group Definition</a>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
-            <h2 class="accordion-header mb-0" id="headingThree">
-                <button class="accordion-button accordion-button--gray collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                    aria-controls="collapseThree">
-                    <img class="mr-4" src="./assets/img/icons/data.svg" alt="">
-                    Open Design
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body py-4 px-5">
-                    A data set that is released freely for any to use and modify.
-                    <br>
-                    Any piece of design work released freely for anyone to use or modify.
-                    <br>
-                    <a href="https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/blob/master/open.design_definition/open.design.definition.md"
-                        target="_blank" rel="noopener noreferrer">Open Design Working Group Definition</a>
+                    <a href="https://sparcopen.org/open-access/">SPARC on Open Access Journals</a>
                 </div>
             </div>
         </div>
@@ -320,15 +354,16 @@ title: "Home"
 <hr class="section-divider">
 
 <!-- Ending Note -->
-<div class="flex inner--small">
+<div class="grid grid-cols-2 inner--small items-center gap-12">
     <div>
         <h2><b>Note from<br> Open@RIT Team</b></h2>
         <hr class="subtitle-divider">
         <p>Open Work Definition is an open source document for everyone who wants to contribute to the open work
             community.
             <br><br>
-            Please don't hesitate to contact us, send a pull request, and share your thoughts. </p>
-        <button class="mt-6">Request Edit</button>
+            Please don't hesitate to contact us, send a pull request, and share your thoughts.
+        </p>
+        <button class="mt-8">Request Edit</button>
     </div>
     <img src="./assets/img/illustrations/two-people-talking.svg" alt="">
 </div>

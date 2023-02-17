@@ -19,7 +19,7 @@
       @apply text-5xl font-semibold leading-[3rem] mb-4;
     }
     h2 {
-      @apply text-2xl leading-8 mb-5;
+      @apply text-2xl font-normal leading-8 mb-5;
     }
     h3 {
       @apply text-xl leading-6;
@@ -28,7 +28,7 @@
       @apply text-xl font-semibold;
     }
     a {
-      @apply text-primary-color hover:text-slate-600 inline-block;
+      @apply underline text-primary-color hover:text-slate-600 inline-block;
     }
     button {
       @apply transition-all text-sm text-black w-44 py-[5px] border-black border-[1px] rounded-full;
@@ -45,7 +45,7 @@
       @apply w-full max-w-[65rem] m-auto;
     }
     .inner--small {
-      @apply w-full max-w-[50rem] m-auto;
+      @apply w-full max-w-[54rem] m-auto;
     }
     .accordion-button--gray {
       @apply 
