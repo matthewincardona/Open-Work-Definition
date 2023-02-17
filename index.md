@@ -137,6 +137,7 @@ title: "Home"
 <hr class="section-divider">
 
 <!-- Types of Open Work -->
+<!-- accordions from tw-elements library -->
 <h2 class="text-center mb-14">Types of <b>Open Work</b></h2>
 <div class="grid grid-cols-2 gap-8 inner--small m-auto justify-center">
     <div class="accordion space-y-4" id="accordionCol1">
