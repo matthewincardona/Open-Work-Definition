@@ -16,7 +16,7 @@
       @apply font-heading text-[#363636] font-light;
     }
     h1 {
-      @apply text-5xl font-semibold leading-[3rem] mb-4;
+      @apply text-6xl font-semibold leading-[4rem] mb-4;
     }
     h2 {
       @apply text-2xl font-normal leading-8 mb-5;
@@ -34,7 +34,7 @@
       @apply transition-all text-sm text-black w-44 py-[5px] border-black border-[1px] rounded-full;
     }
     .section-divider {
-      @apply my-20 border-none bg-[#D4D4D4] h-[2px];
+      @apply my-48 border-none bg-[#D4D4D4] h-[2px];
     }
     .subtitle-divider {
       @apply mt-2 mb-4 w-12 h-1;
