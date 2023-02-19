@@ -19,7 +19,7 @@
       @apply text-6xl font-semibold leading-[4rem] mb-4;
     }
     h2 {
-      @apply text-2xl font-normal leading-8 mb-5;
+      @apply text-3xl font-normal leading-[2.6rem] mb-5;
     }
     h3 {
       @apply text-xl leading-6;
@@ -31,7 +31,7 @@
       @apply underline text-primary-color hover:text-slate-600 inline-block;
     }
     button {
-      @apply transition-all text-sm text-black w-44 py-[5px] border-black border-[1px] rounded-full;
+      @apply transition-all text-sm text-black w-44 py-[5px] border-black border-[1.8px] rounded-full;
     }
     .section-divider {
       @apply my-48 border-none bg-[#D4D4D4] h-[2px];

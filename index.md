@@ -11,7 +11,7 @@ title: "Home"
 <div class="flex justify-start items-center py-48 pt-32">
     <div class="inner--large">
         <h1>Open Work <br>Definition</h1>
-        <p>Subtitle will be place here with 36 pt regular weight.</p>
+        <p class="text-2xl">Subtitle will be place here with 36 pt <br>regular weight.</p>
         <button class="mt-6 mb-12">Request Edit</button>
         <p class="text-xs">This project is maintained by Open@RIT<br>Hoston on GitHub Pages</p>
     </div>
@@ -151,7 +151,7 @@ title: "Home"
     <!-- Types of Open Work -->
     <!-- accordions from tw-elements library -->
     <h2 class="text-center mb-14">Types of <b>Open Work</b></h2>
-    <div class="grid grid-cols-2 gap-8 inner--small m-auto justify-center">
+    <div class="grid grid-cols-2 gap-16 inner--small m-auto justify-center">
         <div class="accordion space-y-4" id="accordionCol1">
             <div class="accordion-item bg-[#F2F2F2] rounded-xl">
                 <h2 class="accordion-header mb-0" id="headingOne">
@@ -162,7 +162,7 @@ title: "Home"
                         Open Educational Resources
                     </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                     data-bs-parent="#accordionCol1">
                     <div class="accordion-body py-4 px-5">
                         OER are openly licensed educational materials — everything from a single lesson plan to an
@@ -288,7 +288,7 @@ title: "Home"
                         Open Hardware
                     </button>
                 </h2>
-                <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix"
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                     data-bs-parent="#accordionCol2">
                     <div class="accordion-body py-4 px-5">
                         Open source hardware is hardware whose design is made publicly available so that anyone can
