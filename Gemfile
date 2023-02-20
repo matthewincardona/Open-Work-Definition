@@ -4,4 +4,7 @@ source 'https://rubygems.org'
 
 gem "github-pages", "~> 227", group: :jekyll_plugins
 gem 'webrick'
-gem 'jekyll-postcss'
+
+group :jekyll_plugins do
+    gem 'jekyll-postcss-v2'
+  end
