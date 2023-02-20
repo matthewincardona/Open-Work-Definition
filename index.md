@@ -51,6 +51,91 @@ title: "Home"
         <img class="mt-[-6rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
     </div>
 
+    <!-- accordions from tw-elements library -->
+    <div class="mt-20 max-w-lg m-auto accordion space-y-6" id="accordionCol1">
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingOne">
+                <button class="accordion-button accordion-button--gray collapsed h-[4.4rem]" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                    aria-controls="collapseOne">
+                    <img class="mr-4 w-12" src="./assets/img/icons/documents-2.svg" alt="">
+                    Definition of Work
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionCol1">
+                <div class="accordion-body py-4 px-5">
+                    A <b>Work</b> is any piece of copyrightable material. This could be software, writing, music, and
+                    many other things.
+                    <br><br>
+                    <a href="">See below</a> for common types of Open Works.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingTwo">
+                <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    <img class="mr-4 w-12" src="./assets/img/icons/no-copyright.svg" alt="">
+                    Definition of License
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionCol1">
+                <div class="accordion-body py-4 px-5">
+                    A <b>License</b>, in this context, is a document describing the terms and conditions that one is
+                    allowed to use a <b>Work</b>.
+                    <br><br>
+                    A <b>License</b> is necessary for any <b>Work</b> to be considered
+                    <b>Open</b> unless that work is <b>Public Domain</b>.
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingThree">
+                <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    <img class="mr-4 w-12" src="./assets/img/icons/documents.svg" alt="">
+                    Definition of Open
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionCol1">
+                <div class="accordion-body py-4 px-5">
+                    As with most definitions of Open, our definition specifically focuses on the licensing and
+                    redistribution of a Work. That work must be available and licensed so anyone can view it,
+                    redistribute it, and modify it openly, in compliance with whatever license has been applied to it.
+                    <br><br>
+                    For more details on the exact definition of Open - See the <a
+                        href="http://opendefinition.org/od/2.1/en/">OKF's definition of “Open.”</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-[#F2F2F2] rounded-xl">
+            <h2 class="accordion-header mb-0" id="headingFour">
+                <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                    aria-controls="collapseFour">
+                    <img class="mr-4 w-12" src="./assets/img/icons/no-copyright-2.svg" alt="">
+                    Definition of Public Domain
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionCol1">
+                <div class="accordion-body py-4 px-5">
+                    When a <b>Work</b> has no copyright, it is available to the public. This means that no individual
+                    has
+                    any ownership over that work. A <b>Public Domain Work</b> cannot be <b>Licensed</b> as there is no
+                    copyright holder.
+                    <br><br>
+                    <b>A Public Domain Work</b> is considered one form of an <b>Open Work</b>.
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Definition of... cards -->
     <div class="mt-28 flex flex-wrap lg:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14">
@@ -70,10 +155,11 @@ title: "Home"
             <div class="flex flex-col items-start align-top">
                 <p class="mb-2 font-bold"><b>Definition of License</b></p>
                 <p>A <b>License</b>, in this context, is a document describing the terms and conditions that one is
-                    allowed to use a <b>Work</b>. 
+                    allowed to use a <b>Work</b>.
                     <br><br>
                     A <b>License</b> is necessary for any <b>Work</b> to be considered
-                    <b>Open</b> unless that work is <b>Public Domain</b>.</p>
+                    <b>Open</b> unless that work is <b>Public Domain</b>.
+                </p>
                 <img class="absolute top-[-12px] right-[-12px] w-14" src="./assets/img/icons/no-copyright.svg" alt="">
                 <!-- card icon -->
             </div>
