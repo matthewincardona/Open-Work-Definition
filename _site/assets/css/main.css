@@ -635,6 +635,9 @@ button{
 .mt-10{
   margin-top: 2.5rem;
 }
+.mt-20{
+  margin-top: 5rem;
+}
 .mt-28{
   margin-top: 7rem;
 }
@@ -694,6 +697,9 @@ button{
 }
 .max-w-\[80rem\]{
   max-width: 80rem;
+}
+.max-w-lg{
+  max-width: 32rem;
 }
 .max-w-sm{
   max-width: 24rem;
