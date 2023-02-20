@@ -12,6 +12,10 @@
       /* background: rgba(191, 198, 255, .2) ; */
       /* outline: 1px solid red */
     }
+
+    /* ===============
+    Typography 
+    =============== */
     body {
       @apply font-heading text-[#363636] font-light overflow-x-hidden;
     }
@@ -30,9 +34,16 @@
     a {
       @apply underline text-primary-color hover:text-slate-600 inline-block;
     }
+    b {
+      @apply font-medium;
+    }
     button {
       @apply transition-all text-sm text-black w-44 py-[5px] border-black border-[1.8px] rounded-full;
     }
+
+    /* ===============
+    Non-Tailwind classes
+    =============== */
     .section-divider {
       @apply my-12 lg:my-28 border-none bg-[#D4D4D4] h-[2px];
     }
