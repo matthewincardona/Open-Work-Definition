@@ -6,7 +6,7 @@ title: "Home"
 <!-- load dynamic tailwind elements -->
 
 <!-- Hero -->
-<div class="relative">
+<section class="relative p-12">
     <img class="absolute z-[-1] top-[20px] left-[-80px] scale-95" src="./assets/img/background-shapes/hero-bg.svg" alt="">
 <div class="flex justify-start items-center py-48 pt-32">
     <div class="inner--large">
@@ -16,16 +16,16 @@ title: "Home"
         <p class="text-xs">This project is maintained by Open@RIT<br>Hoston on GitHub Pages</p>
     </div>
 </div>
-</div>
+</section>
 
 <hr class="section-divider bg-black border-none h-[2px] mt-[1rem]">
 
 <!-- Goal of Open Work -->
-<div class="relative lg:grid grid-cols-2 justify-center inner--small gap-12">
-    <img class="absolute z-[-1] top-[-47%] left-[-17%] max-w-[70rem]"
+<section class="relative p-12 lg:grid grid-cols-2 justify-center inner--small gap-12">
+    <img class="absolute z-[-1] top-[-30%] left-[-14%] max-w-[80rem]"
         src="./assets/img/background-shapes/open-work-goal-bg.svg" alt="">
     <div class="">
-        <h2 class="">Why Are We Using The Term <br><b>Open Work</b>?</h2>
+        <h2 class="sm:whitespace-nowrap">Why Are We Using The Term <br><b>Open Work</b>?</h2>
         <p class="subtitle">Goal of Open Work</p>
         <hr class="subtitle-divider">
         <p>People produce and collaborate on all different types of work within academia and beyond. Different types of
@@ -39,14 +39,14 @@ title: "Home"
         </p>
     </div>
     <img class="place-self-end" src="./assets/img/illustrations/goal-of-open-work.svg" alt="">
-</div>
+</section>
 
 <hr class="section-divider">
 
 <!-- Definition of Open Work -->
-<div class="relative">
+<section class="relative p-12">
     <img class="absolute z-[-1] scale-125 top-20" src="assets/img/background-shapes/open-def-bg.svg" alt="">
-    <h2 class="text-center mb-12"><b>Open Work</b> Definition Version 0.1</h2>
+    <h2 class="text-center mb-20"><b>Open Work</b> Definition Version 0.1</h2>
     <div class="inner--small flex justify-center flex-col m-auto">
         <img src="./assets/img/illustrations/browser-window.svg" alt="">
         <img class="mt-[-6rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
@@ -54,7 +54,7 @@ title: "Home"
 
 
     <!-- Definition of... cards -->
-    <div class="mt-28 flex flex-wrap space-x-0 p-8 justify-center gap-14">
+    <div class="mt-28 flex flex-wrap lg:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14">
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[22rem] px-8 py-10 pr-16">
             <div class="flex flex-col items-start align-top">
                 <p class="mb-2 font-bold"><b>Definition of License</b></p>
@@ -74,7 +74,7 @@ title: "Home"
         </div>
 
     </div>
-    <div class="flex flex-wrap space-x-0 p-8 justify-center gap-14">
+    <div class="flex flex-wrap lg:flex-nowrap space-x-0 p-8 justify-center gap-8 lg:gap-14">
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[22rem] px-8 py-10 pr-16">
             <div class="flex flex-col items-start align-top">
                 <p class="mb-2 font-bold"><b>Definition of Open</b></p>
@@ -98,20 +98,20 @@ title: "Home"
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <hr class="section-divider">
 
 <!-- The Roots of Open Work -->
-<div class="relative">
-    <img class="w-[100rem] absolute z-[-1] right-[-50px] bottom-[-160px]"
+<section class="relative p-12">
+    <img class="w-[100rem] absolute z-[-1] right-[-50px] bottom-[-150px]"
         src="./assets/img/background-shapes/open-work-roots-bg.svg" alt="">
     <h2 class="text-center">The <b>Roots</b> of "Open Work"</h2>
-    <p class="max-w-sm text-center m-auto">The intellectual “Family Tree” of the term Open Work includes examples from
+    <p class="mb-20 max-w-sm text-center m-auto">The intellectual “Family Tree” of the term Open Work includes examples from
         technology, science, and the arts.</p>
-    <div class="inner--large mt-20 mb-32 grid grid-cols-7 justify-center gap-4">
+    <div class="inner--large lg:grid grid-cols-7 justify-center gap-4 lg:space-y-0 space-y-12">
         <div
-            class="relative col-span-3 after:absolute after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] pr-6">
+            class="relative col-span-3 after:absolute after:hidden lg:after:block after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] pr-6">
             <p class="subtitle">Technology</p>
             <hr class="subtitle-divider">
             <p>Distribution Religion: Arguably the first “Open Hardware” license, from the manual/instructions for the
@@ -126,7 +126,7 @@ title: "Home"
             </p>
         </div>
         <div
-            class="relative col-span-2 after:absolute after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] pr-6">
+            class="relative col-span-2 after:absolute after:hidden lg:after:block after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] pr-6">
             <p class="subtitle">Literature and the Arts</p>
             <hr class="subtitle-divider">
             <p>Umberto Eco's “The Open Work” is art with “two constituents: a multiplicity of meanings and the
@@ -142,20 +142,21 @@ title: "Home"
             </p>
         </div>
     </div>
-</div>
+</section>
 
-<div class="relative pb-20">
-    <img class="absolute z-[-1] scale-[1.1] translate-x-[-60px] top-80"
+<hr class="section-divider">
+
+<section class="p-12 relative pb-20">
+    <img class="absolute z-[-1] scale-[1] translate-x-[-80px] top-20"
         src="assets/img/background-shapes/types-of-open-work-bg.svg" alt="">
-    <hr class="section-divider">
     <!-- Types of Open Work -->
     <!-- accordions from tw-elements library -->
     <h2 class="text-center mb-14">Types of <b>Open Work</b></h2>
-    <div class="grid grid-cols-2 gap-16 inner--small m-auto justify-center">
-        <div class="accordion space-y-4" id="accordionCol1">
+    <div class="sm:grid grid-cols-2 gap-16 inner--small m-auto justify-center">
+        <div class="accordion space-y-6" id="accordionCol1">
             <div class="accordion-item bg-[#F2F2F2] rounded-xl">
                 <h2 class="accordion-header mb-0" id="headingOne">
-                    <button class="accordion-button accordion-button--gray collapsed" type="button"
+                    <button class="accordion-button accordion-button--gray collapsed h-[4.4rem]" type="button"
                         data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                         aria-controls="collapseOne">
                         <img class="mr-4" src="./assets/img/icons/educational-resources.svg" alt="">
@@ -278,7 +279,7 @@ title: "Home"
                 </div>
             </div>
         </div>
-        <div class="accordion space-y-4" id="accordionCol2">
+        <div class="accordion mt-6 sm:mt-0 space-y-6" id="accordionCol2">
             <div class="accordion-item bg-[#F2F2F2] rounded-xl">
                 <h2 class="accordion-header mb-0" id="headingSix">
                     <button class="accordion-button accordion-button--gray collapsed" type="button"
@@ -395,14 +396,14 @@ title: "Home"
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <hr class="section-divider">
 
 <!-- Ending Note -->
-<div class="relative">
-    <img class="absolute z-[-1] w-96 left-10 top-[-150px]" src="assets/img/background-shapes/end-note-bg.svg" alt="">
-    <div class="mt-56 grid grid-cols-2 inner--small items-center gap-12">
+<section class="relative">
+    <img class="absolute z-[-1] w-96 left-[85px] top-[-80px]" src="assets/img/background-shapes/end-note-bg.svg" alt="">
+    <div class="mt-36 p-12 lg:grid grid-cols-2 inner--small items-center gap-12">
         <div>
             <h2><b>Note from<br> Open@RIT Team</b></h2>
             <hr class="subtitle-divider">
@@ -415,4 +416,4 @@ title: "Home"
         </div>
         <img src="./assets/img/illustrations/two-people-talking.svg" alt="">
     </div>
-</div>
+</section>

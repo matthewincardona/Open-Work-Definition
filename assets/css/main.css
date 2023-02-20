@@ -13,7 +13,7 @@
       /* outline: 1px solid red */
     }
     body {
-      @apply font-heading text-[#363636] font-light;
+      @apply font-heading text-[#363636] font-light overflow-x-hidden;
     }
     h1 {
       @apply text-6xl font-semibold leading-[4rem] mb-4;
@@ -34,7 +34,7 @@
       @apply transition-all text-sm text-black w-44 py-[5px] border-black border-[1.8px] rounded-full;
     }
     .section-divider {
-      @apply my-48 border-none bg-[#D4D4D4] h-[2px];
+      @apply my-12 lg:my-28 border-none bg-[#D4D4D4] h-[2px];
     }
     .subtitle-divider {
       @apply mt-2 mb-4 w-12 h-1;
@@ -62,6 +62,7 @@
       rounded-none
       transition
       focus:outline-none
+      h-[4.4rem]
     }
 
     .accordion-button:not(.collapsed) {
