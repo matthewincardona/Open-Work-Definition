@@ -3,7 +3,7 @@ baseurl: "/open-work-definition" # the subpath of your site, e.g. /blog
 title: "Open Work Definition" # the name of your site, e.g. ACME Corp.
 
 plugins:
-  - jekyll-postcss
+  - jekyll-postcss-v2
 
 postcss:
   cache: false
