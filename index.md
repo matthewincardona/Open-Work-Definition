@@ -3,8 +3,6 @@ layout: default
 title: "Home"
 ---
 
-<!-- load dynamic tailwind elements -->
-
 <!-- Hero -->
 <section class="relative p-12">
     <img class="absolute z-[-1] top-[20px] left-[-80px] scale-95" src="./assets/img/background-shapes/hero-bg.svg"
