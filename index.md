@@ -85,7 +85,7 @@ title: "Home"
     <div class="flex flex-wrap lg:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14 lg:space-y-8">
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16 mt-8">
             <div class="flex flex-col items-start align-top">
-                <p class="mb-2 font-black"><b>Definition of Open</b></p>
+                <p class="mb-2 font-bla"><b>Definition of Open</b></p>
                 <p>As with most definitions of Open, our definition specifically focuses on the licensing and
                     redistribution of a Work. That work must be available and licensed so anyone can view it,
                     redistribute it, and modify it openly, in compliance with whatever license has been applied to it.
