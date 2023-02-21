@@ -1,85 +1,164 @@
----
----
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+--- --- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @tailwind base;
+
 @layer base {
   :root {
     --light-gray: #F2F2F2;
     --primary-text: #363636;
   }
-    /* ===============
+
+  /* ===============
     Typography 
     =============== */
-    body {
-      @apply font-heading text-[#363636] font-light overflow-x-hidden;
-    }
-    h1 {
-      @apply text-6xl font-semibold leading-[4rem] mb-4;
-    }
-    h2 {
-      @apply text-3xl font-normal leading-[2.6rem] mb-5;
-    }
-    h3 {
-      @apply text-xl leading-6;
-    }
-    .subtitle {
-      @apply text-xl font-semibold;
-    }
-    a {
-      @apply underline text-primary-color hover:text-slate-600 inline-block;
-    }
-    b {
-      @apply font-medium;
-    }
-    button {
-      @apply transition-all text-sm text-black w-44 py-[5px] border-black border-[1.8px] rounded-full;
-    }
+  body {
+    @apply font-heading text-[#363636] font-light overflow-x-hidden;
+  }
 
-    /* ===============
+  h1 {
+    @apply text-6xl font-semibold leading-[4rem] mb-4;
+  }
+
+  h2 {
+    @apply text-3xl font-normal leading-[2.6rem] mb-5;
+  }
+
+  h3 {
+    @apply text-xl leading-6;
+  }
+
+  .subtitle {
+    @apply text-xl font-semibold;
+  }
+
+  a {
+    @apply underline text-primary-color hover: text-slate-600 inline-block;
+  }
+
+  b {
+    @apply font-medium;
+  }
+
+  button {
+    @apply transition-all text-sm text-black w-44 py-[5px] border-black border-[1.8px] rounded-full;
+  }
+
+  /* ===============
     Non-Tailwind classes
     =============== */
-    .section-divider {
-      @apply my-12 lg:my-28 border-none bg-[#D4D4D4] h-[2px];
-    }
-    .subtitle-divider {
-      @apply mt-2 mb-4 w-12 h-1;
-      color: black;
-      background-color: black;
-    }
-    .inner--large {
-      @apply w-full max-w-[65rem] m-auto;
-    }
-    .inner--small {
-      @apply w-full max-w-[54rem] m-auto;
-    }
-    .accordion-button--gray {
-      @apply 
-      relative
-      flex
-      items-center
-      w-full
-      py-4
-      px-5
-      text-base 
-    text-[#363636] 
-      text-left
-      border-0
-      rounded-none
-      transition
-      focus:outline-none
-      h-[4.4rem]
-    }
+  .section-divider {
+    @apply my-12 lg: my-28 border-none bg-[#D4D4D4] h-[2px];
+  }
 
-    .accordion-button:not(.collapsed) {
-      box-shadow: none;
-      background-color: #F2F2F2;
-    }
-    
-    .accordion, .accordion-item, .accordion-button {
-      border-radius: 15px !important;
-    }
+  .subtitle-divider {
+    @apply mt-2 mb-4 w-12 h-1;
+    color: black;
+    background-color: black;
+  }
+
+  .inner--large {
+    @apply w-full max-w-[65rem] m-auto;
+  }
+
+  .inner--small {
+    @apply w-full max-w-[54rem] m-auto;
+  }
+
+  .accordion-button--gray {
+    @apply relative flex items-center w-full py-4 px-5 text-base text-[#363636] text-left border-0 rounded-none transition focus: outline-none h-[4.4rem]
+  }
+
+  .accordion-button:not(.collapsed) {
+    box-shadow: none;
+    background-color: #F2F2F2;
+  }
+
+  .accordion,
+  .accordion-item,
+  .accordion-button {
+    border-radius: 15px !important;
+  }
+
+  /* ===============
+    Mobile Nav
+    =============== */
+  #mobile-menu {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s ease-out;
+  }
+
+  #mobile-menu-toggle:checked~#mobile-menu {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* gross code, but it checks for the hamb-line class inside of a label that follows the mobile-menu-toggle */
+  #mobile-menu-toggle:checked~label .hamb-line {
+    background: black;
+  }
+
+  #mobile-menu-toggle:checked~label .hamb-line::before {
+    transform: rotate(45deg);
+    transform-origin: 17px -1px;
+  }
+
+  #mobile-menu-toggle:checked~label .hamb-line::after {
+    transform: rotate(-45deg);
+    transform-origin: 19px 4px;
+  }
+
+  /* Menu Icon */
+  .hamb {
+    cursor: pointer;
+    float: right;
+    padding: 10px 20px;
+  }
+
+  /* use a pseudo element to create a bigger tappable area */
+  .hamb::after {
+    content: '';
+    height: 44px;
+    width: 44px;
+    transform: translate(-10px, -23px);
+    border-radius: 100%;
+    position: absolute;
+    /* background-color: #FFE6CF80; */
+    cursor: pointer;
+  }
+
+  .hamb-line {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+    transition: all .15s ease-out;
+  }
+
+  .hamb-line::before,
+  .hamb-line::after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .25s ease-out;
+    width: 100%;
+  }
+
+  .hamb-line::before {
+    top: 5px;
+  }
+
+  .hamb-line::after {
+    top: -5px;
+  }
 }
-    
+
 @tailwind components;
 @tailwind utilities;
