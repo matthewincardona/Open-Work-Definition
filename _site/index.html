@@ -12,21 +12,43 @@
   </head>
   
   <div class="w-full relative mb-20">
-  <nav class="z-50 bg-white fixed w-full top-0 left-0">
+  <nav class="hidden sm:block z-50 bg-white fixed w-full top-0 left-0">
   <div class="m-auto max-w-6xl border-black border-b-[2px] border-solid">
-  <div class="sm:flex py-2 justify-between inner--large">
-    <p class="font-bold leading-5"><b>Open Work <br>Definition</b></p>
-    <ul class="text-sm whitespace-nowrap text-center flex space-x-4 items-center">
-      <li><a class="no-underline text-[#252525]" href="/open-work-definition">Home</a></li>
-      <li><a class="no-underline text-[#252525]" href="about">About</a></li>
-      <li><a class="no-underline text-[#252525]" href="get-started">Get Started</a></li>
-      <li><a class="no-underline text-[#252525]" href="members">Members</a></li>
-      <li><a class="no-underline text-[#252525]" href="news-room">News Room</a></li>
-      <li><a class="no-underline text-[#252525]" href="">GitHub</a></li>
-    </ul>
+    <div class="sm:flex py-2 justify-between inner--large">
+      <p class="font-bold leading-5"><b>Open Work <br>Definition</b></p>
+      <ul class="text-sm whitespace-nowrap text-center flex space-x-4 items-center">
+        <li><a class="no-underline text-[#252525]" href="#goal">Goal</a></li>
+        <li><a class="no-underline text-[#252525]" href="#definition">Definition</a></li>
+        <li><a class="no-underline text-[#252525]" href="#roots">Roots</a></li>
+        <li><a class="no-underline text-[#252525]" href="#types">Types</a></li>
+        <li><a class="no-underline text-[#252525]" href="#open@rit">Open@RIT</a></li>
+        <li><a class="no-underline text-[#252525]" href="">GitHub</a></li>
+      </ul>
+    </div>
   </div>
-</div>
+</nav>
+
+<!-- mobile version -->
+<div class="sm:hidden z-50 fixed w-full top-0 right-0 px-6 py-6 pr-6 bg-white">
+  <p class="inline-block font-bold text-white">Open Work Definition</p>
+  <input class="hidden mobile-menu-toggle" type="checkbox" id="mobile-menu-toggle" />
+  <label class="hamb" for="mobile-menu-toggle"><span class="hamb-line"></span></label>
+  <nav class="pt-8" id="mobile-menu">
+    <ul class="space-y-4 pb-6 text-center flex-col justify-center">
+      <li><a class="no-underline text-white" href="#goal">Goal</a></li>
+      <hr class="w-[80%] ml-auto mr-auto border-[#393939]">
+      <li><a class="no-underline text-white" href="#definition">Definition</a></li>
+      <hr class="w-[80%] ml-auto mr-auto border-[#393939]">
+      <li><a class="no-underline text-white" href="#roots">Roots</a></li>
+      <hr class="w-[80%] ml-auto mr-auto border-[#393939]">
+      <li><a class="no-underline text-white" href="#types">Types</a></li>
+      <hr class="w-[80%] ml-auto mr-auto border-[#393939]">
+      <li><a class="no-underline text-white" href="#open@rit">Open@RIT</a></li>
+      <hr class="w-[80%] ml-auto mr-auto border-[#393939]">
+      <li><a class="no-underline text-white" href="">GitHub</a></li>
+    </ul>
   </nav>
+</div>
 </div>
   <body>
     <main class="w-full mt-10 max-w-6xl m-auto">
@@ -46,7 +68,7 @@
 <hr class="section-divider bg-black border-none h-[2px] mt-[1rem]" />
 
 <!-- Goal of Open Work -->
-<section class="relative p-12 lg:grid grid-cols-2 justify-center inner--small gap-12">
+<section id="goal" class="relative p-12 lg:grid grid-cols-2 justify-center inner--small gap-12">
     <img class="absolute z-[-1] top-[-30%] left-[-14%] max-w-[80rem]" src="./assets/img/background-shapes/open-work-goal-bg.svg" alt="" />
     <div class="">
         <h2 class="sm:whitespace-nowrap">Why Are We Using The Term <br /><b>Open Work</b>?</h2>
@@ -68,7 +90,7 @@
 <hr class="section-divider" />
 
 <!-- Definition of Open Work -->
-<section class="relative p-12">
+<section id="definition" class="relative p-12">
     <img class="absolute z-[-1] scale-125 top-20" src="assets/img/background-shapes/open-def-bg.svg" alt="" />
     <h2 class="text-center mb-20"><b>Open Work</b> Definition Version 0.1</h2>
     <div class="inner--small flex justify-center flex-col m-auto">
@@ -76,8 +98,9 @@
         <img class="mt-[-6rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="" />
     </div>
 
+    <!-- Definition of... mobile accordions -->
     <!-- accordions from tw-elements library -->
-    <div class="mt-20 max-w-lg m-auto accordion space-y-6" id="accordionCol1">
+    <div class="block sm:hidden mt-20 max-w-lg m-auto accordion space-y-6" id="accordionCol3">
         <div class="accordion-item bg-[#F2F2F2] rounded-xl">
             <h2 class="accordion-header mb-0" id="headingOne">
                 <button class="accordion-button accordion-button--gray collapsed h-[4.4rem]" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -85,7 +108,7 @@
                     Definition of Work
                 </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionCol1">
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionCol3">
                 <div class="accordion-body py-4 px-5">
                     A <b>Work</b> is any piece of copyrightable material. This could be software, writing, music, and
                     many other things.
@@ -101,7 +124,7 @@
                     Definition of License
                 </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionCol1">
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionCol3">
                 <div class="accordion-body py-4 px-5">
                     A <b>License</b>, in this context, is a document describing the terms and conditions that one is
                     allowed to use a <b>Work</b>.
@@ -119,7 +142,7 @@
                     Definition of Open
                 </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionCol1">
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionCol3">
                 <div class="accordion-body py-4 px-5">
                     As with most definitions of Open, our definition specifically focuses on the licensing and
                     redistribution of a Work. That work must be available and licensed so anyone can view it,
@@ -136,7 +159,7 @@
                     Definition of Public Domain
                 </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionCol1">
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionCol3">
                 <div class="accordion-body py-4 px-5">
                     When a <b>Work</b> has no copyright, it is available to the public. This means that no individual
                     has
@@ -150,7 +173,7 @@
     </div>
 
     <!-- Definition of... cards -->
-    <div class="mt-28 flex flex-wrap lg:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14">
+    <div class="sm:block mt-28 flex flex-wrap lg:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14">
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16">
             <div class="flex flex-col items-start align-top">
                 <p class="mb-2 font-bold"><b>Definition of Work</b></p>
@@ -212,7 +235,7 @@
 <hr class="section-divider" />
 
 <!-- The Roots of Open Work -->
-<section class="relative p-12">
+<section id="#roots" class="relative p-12">
     <img class="w-[100rem] absolute z-[-1] right-[-50px] bottom-[-150px]" src="./assets/img/background-shapes/open-work-roots-bg.svg" alt="" />
     <h2 class="text-center">The <b>Roots</b> of "Open Work"</h2>
     <p class="mb-20 max-w-sm text-center m-auto">The intellectual “Family Tree” of the term Open Work includes examples
@@ -258,9 +281,10 @@
 
 <hr class="section-divider" />
 
-<section class="p-12 relative pb-20">
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- Types of Open Work --&gt;
+</code></pre></div></div>
+<section id="#types" class="p-12 relative pb-20">
     <img class="absolute z-[-1] scale-[1] translate-x-[-80px] top-20" src="assets/img/background-shapes/types-of-open-work-bg.svg" alt="" />
-    <!-- Types of Open Work -->
     <!-- accordions from tw-elements library -->
     <h2 class="text-center mb-14">Types of <b>Open Work</b></h2>
     <div class="sm:grid grid-cols-2 gap-16 inner--small m-auto justify-center">
@@ -478,7 +502,7 @@
 <hr class="section-divider" />
 
 <!-- Ending Note -->
-<section class="relative">
+<section id="#open@rit" class="relative">
     <img class="absolute z-[-1] w-96 left-[85px] top-[-80px]" src="assets/img/background-shapes/end-note-bg.svg" alt="" />
     <div class="mt-36 p-12 lg:grid grid-cols-2 inner--small items-center gap-12">
         <div>

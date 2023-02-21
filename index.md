@@ -20,7 +20,7 @@ title: "Home"
 <hr class="section-divider bg-black border-none h-[2px] mt-[1rem]">
 
 <!-- Goal of Open Work -->
-<section class="relative p-12 lg:grid grid-cols-2 justify-center inner--small gap-12">
+<section id="goal" class="relative p-12 lg:grid grid-cols-2 justify-center inner--small gap-12">
     <img class="absolute z-[-1] top-[-30%] left-[-14%] max-w-[80rem]"
         src="./assets/img/background-shapes/open-work-goal-bg.svg" alt="">
     <div class="">
@@ -43,7 +43,7 @@ title: "Home"
 <hr class="section-divider">
 
 <!-- Definition of Open Work -->
-<section class="relative p-12">
+<section id="definition" class="relative p-12">
     <img class="absolute z-[-1] scale-125 top-20" src="assets/img/background-shapes/open-def-bg.svg" alt="">
     <h2 class="text-center mb-20"><b>Open Work</b> Definition Version 0.1</h2>
     <div class="inner--small flex justify-center flex-col m-auto">
@@ -51,8 +51,9 @@ title: "Home"
         <img class="mt-[-6rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
     </div>
 
+    <!-- Definition of... mobile accordions -->
     <!-- accordions from tw-elements library -->
-    <div class="mt-20 max-w-lg m-auto accordion space-y-6" id="accordionCol1">
+    <div class="block sm:hidden mt-20 max-w-lg m-auto accordion space-y-6" id="accordionCol3">
         <div class="accordion-item bg-[#F2F2F2] rounded-xl">
             <h2 class="accordion-header mb-0" id="headingOne">
                 <button class="accordion-button accordion-button--gray collapsed h-[4.4rem]" type="button"
@@ -63,7 +64,7 @@ title: "Home"
                 </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                data-bs-parent="#accordionCol1">
+                data-bs-parent="#accordionCol3">
                 <div class="accordion-body py-4 px-5">
                     A <b>Work</b> is any piece of copyrightable material. This could be software, writing, music, and
                     many other things.
@@ -82,7 +83,7 @@ title: "Home"
                 </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionCol1">
+                data-bs-parent="#accordionCol3">
                 <div class="accordion-body py-4 px-5">
                     A <b>License</b>, in this context, is a document describing the terms and conditions that one is
                     allowed to use a <b>Work</b>.
@@ -103,7 +104,7 @@ title: "Home"
                 </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionCol1">
+                data-bs-parent="#accordionCol3">
                 <div class="accordion-body py-4 px-5">
                     As with most definitions of Open, our definition specifically focuses on the licensing and
                     redistribution of a Work. That work must be available and licensed so anyone can view it,
@@ -124,7 +125,7 @@ title: "Home"
                 </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionCol1">
+                data-bs-parent="#accordionCol3">
                 <div class="accordion-body py-4 px-5">
                     When a <b>Work</b> has no copyright, it is available to the public. This means that no individual
                     has
@@ -138,7 +139,7 @@ title: "Home"
     </div>
 
     <!-- Definition of... cards -->
-    <div class="mt-28 flex flex-wrap lg:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14">
+    <div class="sm:block mt-28 flex flex-wrap lg:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14">
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16">
             <div class="flex flex-col items-start align-top">
                 <p class="mb-2 font-bold"><b>Definition of Work</b></p>
@@ -201,7 +202,7 @@ title: "Home"
 <hr class="section-divider">
 
 <!-- The Roots of Open Work -->
-<section class="relative p-12">
+<section id="#roots" class="relative p-12">
     <img class="w-[100rem] absolute z-[-1] right-[-50px] bottom-[-150px]"
         src="./assets/img/background-shapes/open-work-roots-bg.svg" alt="">
     <h2 class="text-center">The <b>Roots</b> of "Open Work"</h2>
@@ -252,10 +253,10 @@ title: "Home"
 
 <hr class="section-divider">
 
-<section class="p-12 relative pb-20">
+    <!-- Types of Open Work -->
+<section id="#types" class="p-12 relative pb-20">
     <img class="absolute z-[-1] scale-[1] translate-x-[-80px] top-20"
         src="assets/img/background-shapes/types-of-open-work-bg.svg" alt="">
-    <!-- Types of Open Work -->
     <!-- accordions from tw-elements library -->
     <h2 class="text-center mb-14">Types of <b>Open Work</b></h2>
     <div class="sm:grid grid-cols-2 gap-16 inner--small m-auto justify-center">
@@ -507,7 +508,7 @@ title: "Home"
 <hr class="section-divider">
 
 <!-- Ending Note -->
-<section class="relative">
+<section id="#open@rit" class="relative">
     <img class="absolute z-[-1] w-96 left-[85px] top-[-80px]" src="assets/img/background-shapes/end-note-bg.svg" alt="">
     <div class="mt-36 p-12 lg:grid grid-cols-2 inner--small items-center gap-12">
         <div>
