@@ -17,10 +17,10 @@ title: "Home"
     </div>
 </section>
 
-<hr class="section-divider bg-black border-none h-[2px] mt-[1rem]">
+<hr id="goal" class="section-divider bg-black border-none h-[2px] mt-[1rem]">
 
 <!-- Goal of Open Work -->
-<section id="goal" class="relative p-12 lg:grid grid-cols-2 justify-center inner--small gap-12">
+<section class="relative p-12 lg:grid grid-cols-2 justify-center inner--small gap-12">
     <img class="absolute z-[-1] top-[-30%] left-[-14%] max-w-[80rem]"
         src="./assets/img/background-shapes/open-work-goal-bg.svg" alt="">
     <div class="">
@@ -40,10 +40,10 @@ title: "Home"
     <img class="place-self-end" src="./assets/img/illustrations/goal-of-open-work.svg" alt="">
 </section>
 
-<hr class="section-divider">
+<hr id="definition" class="section-divider">
 
 <!-- Definition of Open Work -->
-<section id="definition" class="relative p-12">
+<section class="relative p-12">
     <img class="absolute z-[-1] scale-125 top-20" src="assets/img/background-shapes/open-def-bg.svg" alt="">
     <h2 class="text-center mb-20"><b>Open Work</b> Definition Version 0.1</h2>
     <div class="inner--small flex justify-center flex-col m-auto">
@@ -51,7 +51,7 @@ title: "Home"
         <img class="mt-[-6rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
     </div>
 
-    <!-- Definition of... mobile accordions -->
+    <!-- definition of... mobile accordions -->
     <!-- accordions from tw-elements library -->
     <div class="block lg:hidden mt-24 max-w-lg m-auto accordion space-y-6" id="accordionCol3">
         <!-- definition of work -->
@@ -79,7 +79,7 @@ title: "Home"
                     <p>A <b>Work</b> is any piece of copyrightable material. This could be software, writing, music, and
                         many other things.
                         <br><br>
-                        <a href="">See below</a> for common types of Open Works.
+                        <a href="#types-of-open-work">See below</a> for common types of Open Works.
                     </p>
                 </div>
             </div>
@@ -189,7 +189,7 @@ title: "Home"
 
     </div>
 
-    <!-- Definition of... cards -->
+    <!-- definition of... cards -->
     <div class="hidden lg:flex mt-28 flex-wrap sm:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14">
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16">
             <div class="flex flex-col items-start align-top">
@@ -197,7 +197,7 @@ title: "Home"
                 <p>A <b>Work</b> is any piece of copyrightable material. This could be software, writing, music, and
                     many other things.
                     <br><br>
-                    <a href="">See below</a> for common types of Open Works.
+                    <a href="#types-of-open-work">See below</a> for common types of Open Works.
                 </p>
                 <img class="absolute top-[-12px] right-[-12px] w-14" src="./assets/img/icons/documents-2.svg" alt="">
                 <!-- card icon -->
@@ -250,10 +250,10 @@ title: "Home"
     </div>
 </section>
 
-<hr class="section-divider">
+<hr id="roots" class="section-divider">
 
 <!-- The Roots of Open Work -->
-<section id="#roots" class="relative p-12">
+<section class="relative p-12">
     <img class="w-[100rem] absolute z-[-1] right-[-50px] bottom-[-150px]"
         src="./assets/img/background-shapes/open-work-roots-bg.svg" alt="">
     <h2 class="text-center">The <b>Roots</b> of "Open Work"</h2>
@@ -302,10 +302,10 @@ title: "Home"
     </div>
 </section>
 
-<hr class="section-divider">
+<hr id="types-of-open-work" class="section-divider">
 
 <!-- Types of open work -->
-<section id="#types" class="p-12 relative pb-20">
+<section class="p-12 relative pb-20">
     <img class="absolute z-[-1] scale-[1] translate-x-[-80px] top-20"
         src="assets/img/background-shapes/types-of-open-work-bg.svg" alt="">
     <h2 class="text-center mb-14">Types of <b>Open Work</b></h2>
@@ -697,10 +697,10 @@ title: "Home"
     </div>
 </section>
 
-<hr class="section-divider">
+<hr id="open@rit" class="section-divider">
 
 <!-- Ending Note -->
-<section id="#open@rit" class="relative">
+<section class="relative">
     <img class="absolute z-[-1] w-96 left-[85px] top-[-80px]" src="assets/img/background-shapes/end-note-bg.svg" alt="">
     <div class="mt-36 p-12 lg:grid grid-cols-2 inner--small items-center gap-12">
         <div>
