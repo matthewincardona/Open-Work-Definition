@@ -449,7 +449,7 @@ button{
     left: 0;
     z-index: -1;
     width: 100%;
-    background-color: black;
+    background-color: white;
     visibility: hidden;
     opacity: 0;
     transition: all .2s ease-out;
@@ -460,15 +460,16 @@ button{
   }
 /* gross code, but it checks for the hamb-line class inside of a label that follows the mobile-menu-toggle */
 #mobile-menu-toggle:checked~label .hamb-line {
-    background: black;
+    background: white;
   }
 #mobile-menu-toggle:checked~label .hamb-line::before {
     transform: rotate(45deg);
-    transform-origin: 17px -1px;
+    transform-origin: 24px -3px;
+
   }
 #mobile-menu-toggle:checked~label .hamb-line::after {
     transform: rotate(-45deg);
-    transform-origin: 19px 4px;
+    transform-origin: 23px 6px;
   }
 /* Menu Icon */
 .hamb {
@@ -484,20 +485,19 @@ button{
     transform: translate(-10px, -23px);
     border-radius: 100%;
     position: absolute;
-    /* background-color: #FFE6CF80; */
     cursor: pointer;
   }
 .hamb-line {
-    background: white;
+    background: #363636;
     display: block;
-    height: 2px;
+    height: 3px;
     position: relative;
-    width: 24px;
+    width: 32px;
     transition: all .15s ease-out;
   }
 .hamb-line::before,
   .hamb-line::after {
-    background: white;
+    background: #363636;
     content: '';
     display: block;
     height: 100%;
@@ -506,10 +506,10 @@ button{
     width: 100%;
   }
 .hamb-line::before {
-    top: 5px;
+    top: 7px;
   }
 .hamb-line::after {
-    top: -5px;
+    top: -7px;
   }
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
@@ -970,13 +970,17 @@ button{
 .p-12{
   padding: 3rem;
 }
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 .px-8{
   padding-left: 2rem;
@@ -1013,6 +1017,9 @@ button{
 }
 .pr-16{
   padding-right: 4rem;
+}
+.pr-2{
+  padding-right: 0.5rem;
 }
 .pr-6{
   padding-right: 1.5rem;
@@ -1140,17 +1147,11 @@ button{
   .sm\:mt-0{
     margin-top: 0px;
   }
-  .sm\:block{
-    display: block;
-  }
   .sm\:flex{
     display: flex;
   }
   .sm\:grid{
     display: grid;
-  }
-  .sm\:hidden{
-    display: none;
   }
   .sm\:flex-nowrap{
     flex-wrap: nowrap;
@@ -1162,6 +1163,9 @@ button{
 @media (min-width: 1024px){
   .lg\:mt-8{
     margin-top: 2rem;
+  }
+  .lg\:block{
+    display: block;
   }
   .lg\:flex{
     display: flex;
