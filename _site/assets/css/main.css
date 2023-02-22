@@ -666,14 +666,14 @@ button{
 .z-\[-1\]{
   z-index: -1;
 }
+.order-1{
+  order: 1;
+}
 .col-span-2{
   grid-column: span 2 / span 2;
 }
 .col-span-3{
   grid-column: span 3 / span 3;
-}
-.col-span-5{
-  grid-column: span 5 / span 5;
 }
 .m-auto{
   margin: auto;
@@ -696,6 +696,9 @@ button{
 }
 .mb-20{
   margin-bottom: 5rem;
+}
+.ml-8{
+  margin-left: 2rem;
 }
 .ml-auto{
   margin-left: auto;
@@ -720,9 +723,6 @@ button{
 }
 .mt-36{
   margin-top: 9rem;
-}
-.mt-48{
-  margin-top: 12rem;
 }
 .mt-6{
   margin-top: 1.5rem;
@@ -919,14 +919,14 @@ button{
 .border-0{
   border-width: 0px;
 }
+.border-b-2{
+  border-bottom-width: 2px;
+}
 .border-b-\[2px\]{
   border-bottom-width: 2px;
 }
 .border-l-0{
   border-left-width: 0px;
-}
-.border-l-2{
-  border-left-width: 2px;
 }
 .border-r-0{
   border-right-width: 0px;
@@ -1002,18 +1002,14 @@ button{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
 .pb-20{
   padding-bottom: 5rem;
 }
+.pb-4{
+  padding-bottom: 1rem;
+}
 .pb-6{
   padding-bottom: 1.5rem;
-}
-.pl-8{
-  padding-left: 2rem;
 }
 .pr-16{
   padding-right: 4rem;
@@ -1036,9 +1032,6 @@ button{
 .text-center{
   text-align: center;
 }
-.text-right{
-  text-align: right;
-}
 .align-top{
   vertical-align: top;
 }
@@ -1049,6 +1042,10 @@ button{
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
+}
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .text-sm{
   font-size: 0.875rem;
@@ -1161,6 +1158,27 @@ button{
   }
 }
 @media (min-width: 1024px){
+  .lg\:order-\[-1\]{
+    order: -1;
+  }
+  .lg\:col-span-2{
+    grid-column: span 2 / span 2;
+  }
+  .lg\:col-span-5{
+    grid-column: span 5 / span 5;
+  }
+  .lg\:m-auto{
+    margin: auto;
+  }
+  .lg\:ml-0{
+    margin-left: 0px;
+  }
+  .lg\:mt-0{
+    margin-top: 0px;
+  }
+  .lg\:mt-48{
+    margin-top: 12rem;
+  }
   .lg\:mt-8{
     margin-top: 2rem;
   }
@@ -1176,8 +1194,14 @@ button{
   .lg\:hidden{
     display: none;
   }
+  .lg\:grid-cols-7{
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
   .lg\:flex-nowrap{
     flex-wrap: nowrap;
+  }
+  .lg\:justify-center{
+    justify-content: center;
   }
   .lg\:gap-14{
     gap: 3.5rem;
@@ -1191,6 +1215,21 @@ button{
     --tw-space-y-reverse: 0;
     margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+  }
+  .lg\:border-b-0{
+    border-bottom-width: 0px;
+  }
+  .lg\:border-l-2{
+    border-left-width: 2px;
+  }
+  .lg\:pb-0{
+    padding-bottom: 0px;
+  }
+  .lg\:pl-8{
+    padding-left: 2rem;
+  }
+  .lg\:text-right{
+    text-align: right;
   }
   .lg\:after\:block::after{
     content: var(--tw-content);
