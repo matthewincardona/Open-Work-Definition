@@ -48,7 +48,7 @@
     Non-Tailwind classes
     =============== */
   .section-divider {
-    @apply my-12 my-28 border-none bg-[#D4D4D4] h-[2px];
+    @apply my-12 lg:my-28 border-none bg-[#D4D4D4] h-[2px];
   }
 
   .subtitle-divider {

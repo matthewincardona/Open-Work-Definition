@@ -376,12 +376,18 @@ button{
     Non-Tailwind classes
     =============== */
 .section-divider{
-  margin-top: 7rem;
-  margin-bottom: 7rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   height: 2px;
   border-style: none;
   --tw-bg-opacity: 1;
   background-color: rgb(212 212 212 / var(--tw-bg-opacity));
+}
+@media (min-width: 1024px){
+  .section-divider{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
 }
 .subtitle-divider{
   margin-top: 0.5rem;
@@ -600,9 +606,6 @@ button{
 .\!visible{
   visibility: visible !important;
 }
-.collapse{
-  visibility: collapse;
-}
 .static{
   position: static;
 }
@@ -709,8 +712,8 @@ button{
 .mt-10{
   margin-top: 2.5rem;
 }
-.mt-20{
-  margin-top: 5rem;
+.mt-24{
+  margin-top: 6rem;
 }
 .mt-28{
   margin-top: 7rem;
@@ -757,9 +760,6 @@ button{
 .h-\[2px\]{
   height: 2px;
 }
-.h-\[4\.4rem\]{
-  height: 4.4rem;
-}
 .w-12{
   width: 3rem;
 }
@@ -774,6 +774,9 @@ button{
 }
 .w-6{
   width: 1.5rem;
+}
+.w-8{
+  width: 2rem;
 }
 .w-96{
   width: 24rem;
@@ -909,9 +912,6 @@ button{
 }
 .rounded-none{
   border-radius: 0px;
-}
-.rounded-xl{
-  border-radius: 0.75rem;
 }
 .border{
   border-width: 1px;
@@ -1152,6 +1152,9 @@ button{
   .sm\:hidden{
     display: none;
   }
+  .sm\:flex-nowrap{
+    flex-wrap: nowrap;
+  }
   .sm\:whitespace-nowrap{
     white-space: nowrap;
   }
@@ -1160,8 +1163,14 @@ button{
   .lg\:mt-8{
     margin-top: 2rem;
   }
+  .lg\:flex{
+    display: flex;
+  }
   .lg\:grid{
     display: grid;
+  }
+  .lg\:hidden{
+    display: none;
   }
   .lg\:flex-nowrap{
     flex-wrap: nowrap;
