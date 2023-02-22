@@ -597,6 +597,9 @@ button{
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.\!visible{
+  visibility: visible !important;
+}
 .collapse{
   visibility: collapse;
 }
@@ -745,6 +748,12 @@ button{
 .hidden{
   display: none;
 }
+.h-5{
+  height: 1.25rem;
+}
+.h-6{
+  height: 1.5rem;
+}
 .h-\[2px\]{
   height: 2px;
 }
@@ -757,8 +766,14 @@ button{
 .w-14{
   width: 3.5rem;
 }
+.w-5{
+  width: 1.25rem;
+}
 .w-56{
   width: 14rem;
+}
+.w-6{
+  width: 1.5rem;
 }
 .w-96{
   width: 24rem;
@@ -787,8 +802,18 @@ button{
 .max-w-sm{
   max-width: 24rem;
 }
+.shrink-0{
+  flex-shrink: 0;
+}
+.origin-center{
+  transform-origin: center;
+}
 .translate-x-\[-80px\]{
   --tw-translate-x: -80px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-\[-180deg\]{
+  --tw-rotate: -180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .scale-125{
@@ -882,14 +907,32 @@ button{
 .rounded-3xl{
   border-radius: 1.5rem;
 }
+.rounded-none{
+  border-radius: 0px;
+}
 .rounded-xl{
   border-radius: 0.75rem;
+}
+.border{
+  border-width: 1px;
+}
+.border-0{
+  border-width: 0px;
 }
 .border-b-\[2px\]{
   border-bottom-width: 2px;
 }
+.border-l-0{
+  border-left-width: 0px;
+}
 .border-l-2{
   border-left-width: 2px;
+}
+.border-r-0{
+  border-right-width: 0px;
+}
+.border-t-0{
+  border-top-width: 0px;
 }
 .border-t-\[6px\]{
   border-top-width: 6px;
@@ -907,6 +950,10 @@ button{
 .border-black{
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+.border-neutral-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity));
 }
 .bg-\[\#F2F2F2\]{
   --tw-bg-opacity: 1;
@@ -976,6 +1023,9 @@ button{
 .pt-8{
   padding-top: 2rem;
 }
+.text-left{
+  text-align: left;
+}
 .text-center{
   text-align: center;
 }
@@ -988,6 +1038,10 @@ button{
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .text-sm{
   font-size: 0.875rem;
@@ -1013,6 +1067,27 @@ button{
 }
 .no-underline{
   text-decoration-line: none;
+}
+.transition{
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-transform{
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-\[350ms\]{
+  transition-duration: 350ms;
+}
+.ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.\[overflow-anchor\:none\]{
+  overflow-anchor: none;
 }
 .after\:absolute::after{
   content: var(--tw-content);
@@ -1042,6 +1117,24 @@ button{
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+.hover\:z-\[2\]:hover{
+  z-index: 2;
+}
+.focus\:z-\[3\]:focus{
+  z-index: 3;
+}
+.group[data-te-collapse-collapsed] .group-\[\[data-te-collapse-collapsed\]\]\:mr-0{
+  margin-right: 0px;
+}
+.group[data-te-collapse-collapsed] .group-\[\[data-te-collapse-collapsed\]\]\:rotate-0{
+  --tw-rotate: 0deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@media (prefers-reduced-motion: reduce){
+  .motion-reduce\:transition-none{
+    transition-property: none;
+  }
 }
 @media (min-width: 640px){
   .sm\:mt-0{
