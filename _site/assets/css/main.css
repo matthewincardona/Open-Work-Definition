@@ -312,7 +312,7 @@ video {
 }
 :root {
     --light-gray: #F2F2F2;
-    --primary-text: #363636;
+    --primary-color: #363636;
   }
 /* ===============
     Typography
@@ -350,8 +350,6 @@ h3{
 a{
   display: inline-block;
   color: var(--primary-color);
-  --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity));
   text-decoration-line: underline;
 }
 b{
@@ -398,8 +396,10 @@ button{
   margin-bottom: 1rem;
   height: 0.25rem;
   width: 3rem;
-    color: black;
-    background-color: black;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .inner--large{
   margin: auto;
@@ -451,16 +451,14 @@ button{
 #mobile-menu {
     position: absolute;
     left: 0;
+    top: -80dvh;
     z-index: -1;
     width: 100%;
     background-color: white;
-    visibility: hidden;
-    opacity: 0;
-    transition: all .2s ease-out;
+    transition: all .3s ease-in-out;
   }
 #mobile-menu-toggle:checked~#mobile-menu {
-    visibility: visible;
-    opacity: 1;
+    top: 64px;
   }
 /* gross code, but it checks for the hamb-line class inside of a label that follows the mobile-menu-toggle */
 #mobile-menu-toggle:checked~label .hamb-line {
@@ -710,9 +708,6 @@ button{
 .mr-4{
   margin-right: 1rem;
 }
-.mr-auto{
-  margin-right: auto;
-}
 .mt-0{
   margin-top: 0px;
 }
@@ -790,9 +785,6 @@ button{
 }
 .w-\[26rem\]{
   width: 26rem;
-}
-.w-\[80\%\]{
-  width: 80%;
 }
 .w-full{
   width: 100%;
@@ -895,11 +887,6 @@ button{
   margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
-.space-y-4 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
 .space-y-6 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -926,6 +913,9 @@ button{
 .border-b-2{
   border-bottom-width: 2px;
 }
+.border-b-\[1\.2px\]{
+  border-bottom-width: 1.2px;
+}
 .border-b-\[2px\]{
   border-bottom-width: 2px;
 }
@@ -947,9 +937,9 @@ button{
 .border-none{
   border-style: none;
 }
-.border-\[\#393939\]{
+.border-\[\#D4D4D4\]{
   --tw-border-opacity: 1;
-  border-color: rgb(57 57 57 / var(--tw-border-opacity));
+  border-color: rgb(212 212 212 / var(--tw-border-opacity));
 }
 .border-black{
   --tw-border-opacity: 1;
@@ -1004,9 +994,6 @@ button{
 .pb-4{
   padding-bottom: 1rem;
 }
-.pb-6{
-  padding-bottom: 1.5rem;
-}
 .pr-16{
   padding-right: 4rem;
 }
@@ -1057,6 +1044,10 @@ button{
 .text-\[\#252525\]{
   --tw-text-opacity: 1;
   color: rgb(37 37 37 / var(--tw-text-opacity));
+}
+.text-\[\#363636\]{
+  --tw-text-opacity: 1;
+  color: rgb(54 54 54 / var(--tw-text-opacity));
 }
 .no-underline{
   text-decoration-line: none;
@@ -1158,6 +1149,9 @@ button{
   }
   .lg\:m-auto{
     margin: auto;
+  }
+  .lg\:mb-20{
+    margin-bottom: 5rem;
   }
   .lg\:ml-0{
     margin-left: 0px;

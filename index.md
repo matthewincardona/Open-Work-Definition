@@ -9,8 +9,8 @@ title: "Home"
         alt="">
     <div class="flex justify-start items-center py-36 pt-32">
         <div class="inner--large">
-            <h1>Open Work <br>Definition</h1>
-            <p class="text-2xl">Subtitle will be place here with 36 pt <br>regular weight.</p>
+            <h1>Open Work<br>Definition</h1>
+            <p class="text-2xl">Subtitle will be placed here with 36 pt <br>regular weight.</p>
             <button class="mt-6 mb-12">Request Edit</button>
             <p class="text-xs">This project is maintained by Open@RIT<br>Hoston on GitHub Pages</p>
         </div>

@@ -6,7 +6,7 @@
 @layer base {
   :root {
     --light-gray: #F2F2F2;
-    --primary-text: #363636;
+    --primary-color: #363636;
   }
 
   /* ===============
@@ -33,7 +33,7 @@
   }
 
   a {
-    @apply underline text-primary-color text-slate-600 inline-block;
+    @apply underline text-primary-color inline-block;
   }
 
   b {
@@ -56,9 +56,7 @@
   }
 
   .subtitle-divider {
-    @apply mt-2 mb-4 w-12 h-1;
-    color: black;
-    background-color: black;
+    @apply mt-2 mb-4 w-12 h-1 text-black bg-black;
   }
 
   .inner--large {
@@ -90,17 +88,15 @@
   #mobile-menu {
     position: absolute;
     left: 0;
+    top: -80dvh;
     z-index: -1;
     width: 100%;
     background-color: white;
-    visibility: hidden;
-    opacity: 0;
-    transition: all .2s ease-out;
+    transition: all .3s ease-in-out;
   }
 
   #mobile-menu-toggle:checked~#mobile-menu {
-    visibility: visible;
-    opacity: 1;
+    top: 64px;
   }
 
   /* gross code, but it checks for the hamb-line class inside of a label that follows the mobile-menu-toggle */
