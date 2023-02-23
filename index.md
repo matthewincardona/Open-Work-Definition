@@ -5,12 +5,12 @@ title: "Home"
 
 <!-- Hero -->
 <section class="relative p-12">
-    <img class="absolute z-[-1] top-[20px] left-[-80px] scale-95" src="./assets/img/background-shapes/hero-bg.svg"
+    <img class="absolute z-[-1] top-[20px] left-[-80px] max-w-[80rem]" src="./assets/img/background-shapes/hero-bg.svg"
         alt="">
-    <div class="flex justify-start items-center py-24 pt-20">
+    <div class="flex justify-start items-center py-24 pt-12 sm:pt-20">
         <div class="inner--large">
             <h1>Open Work<br>Definition</h1>
-            <p class="text-2xl">Subtitle will be placed here with 36 pt <br>regular weight.</p>
+            <p class="text-2xl subtitle font-normal">Subtitle will be placed here<br>with 36 pt regular weight.</p>
             <button class="mt-6 mb-12">Request Edit</button>
             <p class="text-xs">This project is maintained by Open@RIT<br>Hoston on GitHub Pages</p>
         </div>
@@ -21,7 +21,7 @@ title: "Home"
 
 <!-- Goal of Open Work -->
 <section class="relative p-12 lg:grid grid-cols-2 justify-center inner--small gap-12">
-    <img class="absolute z-[-1] top-[-30%] left-[-14%] max-w-[80rem]"
+    <img class="absolute z-[-1] top-[-20%] lg:top-[-30%] left-[-14%] max-w-[80rem]"
         src="./assets/img/background-shapes/open-work-goal-bg.svg" alt="">
     <div class="">
         <h2 class="sm:whitespace-nowrap">Why Are We Using The Term <br><b>Open Work</b>?</h2>
@@ -193,7 +193,7 @@ title: "Home"
     <div class="hidden lg:flex mt-28 flex-wrap sm:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14">
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16">
             <div class="flex flex-col items-start align-top">
-                <h3 class="mb-2">Definition of Work</h3>
+                <h3 class="mb-2 subtitle">Definition of Work</h3>
                 <p>A <b>Work</b> is any piece of copyrightable material. This could be software, writing, music, and
                     many other things.
                     <br><br>
@@ -205,7 +205,7 @@ title: "Home"
         </div>
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16">
             <div class="flex flex-col items-start align-top">
-                <h3 class="mb-2">Definition of License</h3>
+                <h3 class="mb-2 subtitle">Definition of License</h3>
                 <p>A <b class="font-medium">License</b>, in this context, is a document describing the terms and conditions that one is
                     allowed to use a <b>Work</b>.
                     <br><br>
@@ -221,7 +221,7 @@ title: "Home"
     <div class="hidden lg:flex flex-wrap lg:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14 lg:space-y-8">
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16 mt-8">
             <div class="flex flex-col items-start align-top">
-                <h3 class="mb-2">Definition of Open</h3>
+                <h3 class="mb-2 subtitle">Definition of Open</h3>
                 <p>As with most definitions of Open, our definition specifically focuses on the licensing and
                     redistribution of a Work. That work must be available and licensed so anyone can view it,
                     redistribute it, and modify it openly, in compliance with whatever license has been applied to it.
@@ -236,7 +236,7 @@ title: "Home"
 
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16 mt-0 lg:mt-8">
             <div class="flex flex-col items-start align-top">
-                <h3 class="mb-2">Definition of Public Domain</h3>
+                <h3 class="mb-2 subtitle">Definition of Public Domain</h3>
                 <p>When a <b>Work</b> has no copyright, it is available to the public. This means that no individual has
                     any ownership over that work. A <b>Public Domain Work</b> cannot be <b>Licensed</b> as there is no
                     copyright holder.
@@ -254,7 +254,7 @@ title: "Home"
 
 <!-- The Roots of Open Work -->
 <section class="relative p-12">
-    <img class="w-[100rem] absolute z-[-1] right-[-50px] bottom-[-150px]"
+    <img class="w-[100rem] absolute z-[-1] right-[-4%] bottom-[-150px]"
         src="./assets/img/background-shapes/open-work-roots-bg.svg" alt="">
     <h2 class="text-center">The <b>Roots</b> of "Open Work"</h2>
     <p class="mb-20 max-w-sm text-center m-auto">The intellectual “Family Tree” of the term Open Work includes examples
@@ -701,7 +701,7 @@ title: "Home"
 
 <!-- Ending Note -->
 <section class="relative">
-    <img class="absolute z-[-1] w-96 left-[85px] top-[-80px]" src="assets/img/background-shapes/end-note-bg.svg" alt="">
+    <img class="absolute z-[-1] w-96 left-[-10%] lg:left-[7%] top-[-18%]" src="assets/img/background-shapes/end-note-bg.svg" alt="">
     <div class="mt-36 p-12 lg:grid grid-cols-2 inner--small items-center gap-12">
         <div>
             <h2><b>Note from<br> Open@RIT Team</b></h2>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
 /*
 ! tailwindcss v3.2.6 | MIT License | https://tailwindcss.com
 */
@@ -317,6 +318,9 @@ video {
 /* ===============
     Typography
     =============== */
+html{
+  overflow-x: hidden;
+}
 body{
   overflow-x: hidden;
   font-family: Inter, sans-serif;
@@ -343,9 +347,10 @@ h3{
   font-weight: 900;
 }
 .subtitle{
+  font-family: Roboto Mono, sans-serif;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 a{
   display: inline-block;
@@ -626,14 +631,14 @@ button{
 .left-0{
   left: 0px;
 }
+.left-\[-10\%\]{
+  left: -10%;
+}
 .left-\[-14\%\]{
   left: -14%;
 }
 .left-\[-80px\]{
   left: -80px;
-}
-.left-\[85px\]{
-  left: 85px;
 }
 .right-0{
   right: 0px;
@@ -641,8 +646,8 @@ button{
 .right-\[-12px\]{
   right: -12px;
 }
-.right-\[-50px\]{
-  right: -50px;
+.right-\[-4\%\]{
+  right: -4%;
 }
 .top-0{
   top: 0px;
@@ -653,11 +658,11 @@ button{
 .top-\[-12px\]{
   top: -12px;
 }
-.top-\[-30\%\]{
-  top: -30%;
+.top-\[-18\%\]{
+  top: -18%;
 }
-.top-\[-80px\]{
-  top: -80px;
+.top-\[-20\%\]{
+  top: -20%;
 }
 .top-\[20px\]{
   top: 20px;
@@ -818,11 +823,6 @@ button{
 .scale-125{
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.scale-95{
-  --tw-scale-x: .95;
-  --tw-scale-y: .95;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .scale-\[1\]{
@@ -1000,8 +1000,8 @@ button{
 .pr-6{
   padding-right: 1.5rem;
 }
-.pt-20{
-  padding-top: 5rem;
+.pt-12{
+  padding-top: 3rem;
 }
 .pt-8{
   padding-top: 2rem;
@@ -1040,6 +1040,9 @@ button{
 }
 .font-medium{
   font-weight: 500;
+}
+.font-normal{
+  font-weight: 400;
 }
 .text-\[\#252525\]{
   --tw-text-opacity: 1;
@@ -1136,8 +1139,17 @@ button{
   .sm\:whitespace-nowrap{
     white-space: nowrap;
   }
+  .sm\:pt-20{
+    padding-top: 5rem;
+  }
 }
 @media (min-width: 1024px){
+  .lg\:left-\[7\%\]{
+    left: 7%;
+  }
+  .lg\:top-\[-30\%\]{
+    top: -30%;
+  }
   .lg\:order-\[-1\]{
     order: -1;
   }
