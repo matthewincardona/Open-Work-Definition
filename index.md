@@ -7,7 +7,7 @@ title: "Home"
 <section class="relative p-12">
     <img class="absolute z-[-1] top-[20px] left-[-80px] scale-95" src="./assets/img/background-shapes/hero-bg.svg"
         alt="">
-    <div class="flex justify-start items-center py-36 pt-32">
+    <div class="flex justify-start items-center py-24 pt-20">
         <div class="inner--large">
             <h1>Open Work<br>Definition</h1>
             <p class="text-2xl">Subtitle will be placed here with 36 pt <br>regular weight.</p>

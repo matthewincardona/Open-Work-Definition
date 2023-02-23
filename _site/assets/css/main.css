@@ -980,9 +980,9 @@ button{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
-.py-36{
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .py-4{
   padding-top: 1rem;
@@ -1000,8 +1000,8 @@ button{
 .pr-6{
   padding-right: 1.5rem;
 }
-.pt-32{
-  padding-top: 8rem;
+.pt-20{
+  padding-top: 5rem;
 }
 .pt-8{
   padding-top: 2rem;
