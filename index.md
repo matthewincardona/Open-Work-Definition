@@ -193,7 +193,7 @@ title: "Home"
     <div class="hidden lg:flex mt-28 flex-wrap sm:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14">
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16">
             <div class="flex flex-col items-start align-top">
-                <p class="mb-2 font-bold"><b>Definition of Work</b></p>
+                <h3 class="mb-2">Definition of Work</h3>
                 <p>A <b>Work</b> is any piece of copyrightable material. This could be software, writing, music, and
                     many other things.
                     <br><br>
@@ -205,8 +205,8 @@ title: "Home"
         </div>
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16">
             <div class="flex flex-col items-start align-top">
-                <p class="mb-2 font-bold"><b>Definition of License</b></p>
-                <p>A <b>License</b>, in this context, is a document describing the terms and conditions that one is
+                <h3 class="mb-2">Definition of License</h3>
+                <p>A <b class="font-medium">License</b>, in this context, is a document describing the terms and conditions that one is
                     allowed to use a <b>Work</b>.
                     <br><br>
                     A <b>License</b> is necessary for any <b>Work</b> to be considered
@@ -221,7 +221,7 @@ title: "Home"
     <div class="hidden lg:flex flex-wrap lg:flex-nowrap space-x-0 justify-center gap-8 lg:gap-14 lg:space-y-8">
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16 mt-8">
             <div class="flex flex-col items-start align-top">
-                <p class="mb-2 font-bold"><b>Definition of Open</b></p>
+                <h3 class="mb-2">Definition of Open</h3>
                 <p>As with most definitions of Open, our definition specifically focuses on the licensing and
                     redistribution of a Work. That work must be available and licensed so anyone can view it,
                     redistribute it, and modify it openly, in compliance with whatever license has been applied to it.
@@ -236,7 +236,7 @@ title: "Home"
 
         <div class="relative bg-[#F2F2F2] rounded-3xl w-[26rem] px-8 py-10 pr-16 mt-0 lg:mt-8">
             <div class="flex flex-col items-start align-top">
-                <p class="mb-2 font-bold"><b>Definition of Public Domain</b></p>
+                <h3 class="mb-2">Definition of Public Domain</h3>
                 <p>When a <b>Work</b> has no copyright, it is available to the public. This means that no individual has
                     any ownership over that work. A <b>Public Domain Work</b> cannot be <b>Licensed</b> as there is no
                     copyright holder.
