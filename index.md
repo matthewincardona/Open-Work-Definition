@@ -321,7 +321,7 @@ title: "Home"
     <h2 class="text-center mb-14">Types of <b>Open Work</b></h2>
 
     <!-- accordions from tw-elements library -->
-    <div class="sm:grid grid-cols-2 gap-16 inner--small justify-between">
+    <div class="max-w-lg lg:max-w-none lg:grid grid-cols-2 gap-16 inner--small justify-between">
         <div class="accordion space-y-6" id="typesOfOpenWorkCol1">
 
             <!-- open ed resources -->
@@ -517,7 +517,7 @@ title: "Home"
             </div>
         </div>
 
-        <div class="accordion mt-6 sm:mt-0 space-y-6" id="typesOfOpenWorkCol2">
+        <div class="accordion mt-6 lg:mt-0 space-y-6" id="typesOfOpenWorkCol2">
             <!-- open hardware -->
             <div
                 class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">

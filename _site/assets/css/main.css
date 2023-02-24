@@ -1111,14 +1111,8 @@ button{
   }
 }
 @media (min-width: 640px){
-  .sm\:mt-0{
-    margin-top: 0px;
-  }
   .sm\:flex{
     display: flex;
-  }
-  .sm\:grid{
-    display: grid;
   }
   .sm\:whitespace-nowrap{
     white-space: nowrap;
@@ -1175,6 +1169,9 @@ button{
   }
   .lg\:hidden{
     display: none;
+  }
+  .lg\:max-w-none{
+    max-width: none;
   }
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
