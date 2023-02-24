@@ -409,8 +409,6 @@ h1 > b,
 .btn--github:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 @keyframes content-change {
     0% {
@@ -433,10 +431,10 @@ h1 > b,
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 200ms;
-  transition-duration: 200ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-    animation: content-change .1s ease-in .15s forwards;
+  transition-delay: 100ms;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    animation: content-change 0ms ease-in 150ms forwards;
 }
 .btn--github::before{
   position: absolute;

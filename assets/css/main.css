@@ -78,7 +78,6 @@
 
   .btn--github:hover {
     @apply
-    text-white
     bg-black;
   }
 
@@ -101,14 +100,13 @@
 
   .btn--github:hover::after {
     @apply
-    /* content-['Pull_Request'] */
     transition-all
-    duration-200
-    delay-200
-    ease-in
+    duration-[300ms]
+    delay-100
+    ease-out
     text-white
     ml-7;
-    animation: content-change .1s ease-in .15s forwards;
+    animation: content-change 0ms ease-in 150ms forwards;
   }
 
   .btn--github::before {
@@ -128,8 +126,7 @@
 
   .btn--github:hover::before {
     @apply 
-    opacity-100
-    ;
+    opacity-100;
   }
 
   /* ===============
