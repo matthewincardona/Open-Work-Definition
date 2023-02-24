@@ -21,7 +21,7 @@ title: "Home"
 
 <!-- Goal of Open Work -->
 <section class="p-12">
-    <div class="relative inner--small lg:grid grid-cols-2 justify-center gap-12">
+    <div class="relative inner--small grid lg:grid-cols-2 justify-center lg:gap-12">
     <img class="absolute z-[-1] top-[-20%] lg:top-[-32%] left-[-100%] max-w-[80rem]"
         src="./assets/img/background-shapes/open-work-goal-bg.svg" alt="">
     <div class="">
@@ -38,7 +38,7 @@ title: "Home"
             developed, distributed, and collaborated upon.
         </p>
     </div>
-    <img class="place-self-end" src="./assets/img/illustrations/goal-of-open-work.svg" alt="">
+    <img class="lg:place-self-end" src="./assets/img/illustrations/goal-of-open-work.svg" alt="">
 </div>
 </section>
 
@@ -270,9 +270,9 @@ title: "Home"
     <p class="mb-20 max-w-sm text-center m-auto">The intellectual “Family Tree” of the term Open Work includes examples
         from
         technology, science, and the arts.</p>
-    <div class="inner--large lg:grid grid-cols-7 justify-center gap-4 lg:space-y-0 space-y-12">
+    <div class="inner--large grid lg:grid-cols-7 justify-center lg:gap-4 lg:space-y-0 space-y-12">
         <div
-            class="relative col-span-3 after:absolute after:hidden lg:after:block after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] pr-6">
+            class="relative col-span-3 after:absolute after:hidden lg:after:block after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] lg:pr-6">
             <p class="subtitle">Technology</p>
             <hr class="subtitle-divider">
             <p><a href="http://criticalartware.net/DistributionReligion/DistributionReligion.pdf">Distribution
@@ -292,7 +292,7 @@ title: "Home"
             </p>
         </div>
         <div
-            class="relative col-span-2 after:absolute after:hidden lg:after:block after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] pr-6">
+            class="relative col-span-2 after:absolute after:hidden lg:after:block after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] lg:pr-6">
             <p class="subtitle">Literature and the Arts</p>
             <hr class="subtitle-divider">
             <p>Umberto Eco's “<a
@@ -713,7 +713,7 @@ title: "Home"
 <section class="relative p-12">
     <img class="absolute z-[-1] w-96 left-[-10%] lg:left-[7%] top-[-18%]"
         src="assets/img/background-shapes/end-note-bg.svg" alt="">
-    <div class="m-auto mt-36 lg:grid grid-cols-2 inner--small items-center gap-12 justify-center">
+    <div class="lg:mt-36 grid lg:grid-cols-2 inner--small items-center gap-12 justify-center">
         <div>
             <h2><b>Note from<br> Open@RIT Team</b></h2>
             <hr class="subtitle-divider">

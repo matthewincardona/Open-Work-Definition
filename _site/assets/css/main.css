@@ -734,9 +734,6 @@ button{
 .mt-28{
   margin-top: 7rem;
 }
-.mt-36{
-  margin-top: 9rem;
-}
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -839,9 +836,6 @@ button{
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.grid-cols-7{
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-}
 .flex-col{
   flex-direction: column;
 }
@@ -865,9 +859,6 @@ button{
 }
 .gap-16{
   gap: 4rem;
-}
-.gap-4{
-  gap: 1rem;
 }
 .gap-6{
   gap: 1.5rem;
@@ -894,9 +885,6 @@ button{
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-.place-self-end{
-  place-self: end;
 }
 .whitespace-nowrap{
   white-space: nowrap;
@@ -1002,9 +990,6 @@ button{
 }
 .pr-16{
   padding-right: 4rem;
-}
-.pr-6{
-  padding-right: 1.5rem;
 }
 .pt-12{
   padding-top: 3rem;
@@ -1170,6 +1155,9 @@ button{
   .lg\:mt-0{
     margin-top: 0px;
   }
+  .lg\:mt-36{
+    margin-top: 9rem;
+  }
   .lg\:mt-48{
     margin-top: 12rem;
   }
@@ -1188,14 +1176,23 @@ button{
   .lg\:hidden{
     display: none;
   }
+  .lg\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .lg\:grid-cols-7{
     grid-template-columns: repeat(7, minmax(0, 1fr));
   }
   .lg\:justify-center{
     justify-content: center;
   }
+  .lg\:gap-12{
+    gap: 3rem;
+  }
   .lg\:gap-14{
     gap: 3.5rem;
+  }
+  .lg\:gap-4{
+    gap: 1rem;
   }
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
@@ -1206,6 +1203,9 @@ button{
     --tw-space-y-reverse: 0;
     margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+  }
+  .lg\:place-self-end{
+    place-self: end;
   }
   .lg\:border-b-0{
     border-bottom-width: 0px;
@@ -1218,6 +1218,9 @@ button{
   }
   .lg\:pl-8{
     padding-left: 2rem;
+  }
+  .lg\:pr-6{
+    padding-right: 1.5rem;
   }
   .lg\:text-right{
     text-align: right;
