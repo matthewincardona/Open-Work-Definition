@@ -531,6 +531,7 @@ h1 > b,
 #mobile-menu {
     position: absolute;
     left: 0;
+    visibility: hidden;
     top: -80dvh;
     z-index: -1;
     width: 100%;
@@ -538,19 +539,20 @@ h1 > b,
     transition: all 0.3s ease-in-out;
   }
 #mobile-menu-toggle:checked ~ #mobile-menu {
+    visibility: visible;
     top: 64px;
   }
 /* gross code, but it checks for the hamb-line class inside of a label that follows the mobile-menu-toggle */
 #mobile-menu-toggle:checked ~ label .hamb-line {
     background: white;
   }
-#mobile-menu-toggle:checked ~ label .hamb-line::before {
-    transform: rotate(45deg);
-    transform-origin: 24px -3px;
-  }
 #mobile-menu-toggle:checked ~ label .hamb-line::after {
+    transform: rotate(45deg);
+    transform-origin: 6px -1px;
+  }
+#mobile-menu-toggle:checked ~ label .hamb-line::before {
     transform: rotate(-45deg);
-    transform-origin: 23px 6px;
+    transform-origin: left center;
   }
 /* Menu Icon */
 .hamb {
@@ -573,18 +575,17 @@ h1 > b,
     display: block;
     height: 3px;
     position: relative;
-    width: 32px;
+    width: 28px;
     transition: all 0.15s ease-out;
   }
 .hamb-line::before,
   .hamb-line::after {
     background: #363636;
     content: "";
-    display: block;
     height: 100%;
-    position: absolute;
-    transition: all 0.25s ease-out;
     width: 100%;
+    position: absolute;
+    transition: all 0.20s ease-out;
   }
 .hamb-line::before {
     top: 7px;

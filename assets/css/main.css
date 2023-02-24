@@ -169,6 +169,7 @@
   #mobile-menu {
     position: absolute;
     left: 0;
+    visibility: hidden;
     top: -80dvh;
     z-index: -1;
     width: 100%;
@@ -177,6 +178,7 @@
   }
 
   #mobile-menu-toggle:checked ~ #mobile-menu {
+    visibility: visible;
     top: 64px;
   }
 
@@ -185,14 +187,14 @@
     background: white;
   }
 
-  #mobile-menu-toggle:checked ~ label .hamb-line::before {
+  #mobile-menu-toggle:checked ~ label .hamb-line::after {
     transform: rotate(45deg);
-    transform-origin: 24px -3px;
+    transform-origin: 6px -1px;
   }
 
-  #mobile-menu-toggle:checked ~ label .hamb-line::after {
+  #mobile-menu-toggle:checked ~ label .hamb-line::before {
     transform: rotate(-45deg);
-    transform-origin: 23px 6px;
+    transform-origin: left center;
   }
 
   /* Menu Icon */
@@ -218,7 +220,7 @@
     display: block;
     height: 3px;
     position: relative;
-    width: 32px;
+    width: 28px;
     transition: all 0.15s ease-out;
   }
 
@@ -226,11 +228,10 @@
   .hamb-line::after {
     background: #363636;
     content: "";
-    display: block;
     height: 100%;
-    position: absolute;
-    transition: all 0.25s ease-out;
     width: 100%;
+    position: absolute;
+    transition: all 0.20s ease-out;
   }
 
   .hamb-line::before {
