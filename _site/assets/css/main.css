@@ -872,6 +872,9 @@ h1 > b,
 .max-w-6xl{
   max-width: 72rem;
 }
+.max-w-\[25rem\]{
+  max-width: 25rem;
+}
 .max-w-\[80rem\]{
   max-width: 80rem;
 }

@@ -724,6 +724,6 @@ title: "Home"
             </p>
             <a href="https://github.com/FOSSRIT/open-work-definition/" class="btn btn--github mt-8"></a>
         </div>
-        <img src="./assets/img/illustrations/two-people-talking.svg" alt="">
+        <img src="./assets/img/illustrations/two-people-talking.svg" class="max-w-[25rem]" alt="">
     </div>
 </section>
