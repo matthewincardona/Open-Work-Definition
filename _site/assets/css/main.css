@@ -833,6 +833,11 @@ button{
   --tw-scale-y: 1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.select-none{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -952,6 +957,9 @@ button{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.p-1{
+  padding: 0.25rem;
+}
 .p-12{
   padding: 3rem;
 }
@@ -1049,9 +1057,17 @@ button{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.transition-opacity{
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .transition-transform{
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-150{
   transition-duration: 150ms;
 }
 .duration-\[350ms\]{
@@ -1094,6 +1110,9 @@ button{
 }
 .hover\:z-\[2\]:hover{
   z-index: 2;
+}
+.hover\:opacity-60:hover{
+  opacity: 0.6;
 }
 .focus\:z-\[3\]:focus{
   z-index: 3;
