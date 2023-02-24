@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
 /*
 ! tailwindcss v3.2.6 | MIT License | https://tailwindcss.com
 */
@@ -312,17 +312,25 @@ video {
   display: none;
 }
 :root {
-    --light-gray: #F2F2F2;
+    --light-gray: #f2f2f2;
     --primary-color: #363636;
   }
-/* ===============
-    Typography
-    =============== */
 html{
   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce){
+  html{
+    scroll-behavior: auto;
+  }
 }
 body{
   overflow-x: hidden;
+}
+/* ===============
+    Typography
+    =============== */
+body{
   font-family: Inter, sans-serif;
   font-weight: 300;
   --tw-text-opacity: 1;
@@ -363,7 +371,8 @@ p{
 b{
   font-weight: 500;
 }
-h1 > b, h2 > b{
+h1 > b,
+  h2 > b{
   font-weight: 900;
 }
 button{
@@ -446,7 +455,7 @@ button{
 }
 .accordion-button:not(.collapsed) {
     box-shadow: none;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
   }
 .accordion,
   .accordion-item,
@@ -463,21 +472,20 @@ button{
     z-index: -1;
     width: 100%;
     background-color: white;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
-#mobile-menu-toggle:checked~#mobile-menu {
+#mobile-menu-toggle:checked ~ #mobile-menu {
     top: 64px;
   }
 /* gross code, but it checks for the hamb-line class inside of a label that follows the mobile-menu-toggle */
-#mobile-menu-toggle:checked~label .hamb-line {
+#mobile-menu-toggle:checked ~ label .hamb-line {
     background: white;
   }
-#mobile-menu-toggle:checked~label .hamb-line::before {
+#mobile-menu-toggle:checked ~ label .hamb-line::before {
     transform: rotate(45deg);
     transform-origin: 24px -3px;
-
   }
-#mobile-menu-toggle:checked~label .hamb-line::after {
+#mobile-menu-toggle:checked ~ label .hamb-line::after {
     transform: rotate(-45deg);
     transform-origin: 23px 6px;
   }
@@ -489,7 +497,7 @@ button{
   }
 /* use a pseudo element to create a bigger tappable area */
 .hamb::after {
-    content: '';
+    content: "";
     height: 44px;
     width: 44px;
     transform: translate(-10px, -23px);
@@ -503,16 +511,16 @@ button{
     height: 3px;
     position: relative;
     width: 32px;
-    transition: all .15s ease-out;
+    transition: all 0.15s ease-out;
   }
 .hamb-line::before,
   .hamb-line::after {
     background: #363636;
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     position: absolute;
-    transition: all .25s ease-out;
+    transition: all 0.25s ease-out;
     width: 100%;
   }
 .hamb-line::before {
