@@ -375,21 +375,86 @@ h1 > b,
   h2 > b{
   font-weight: 900;
 }
-button{
+/* ===============
+    Buttons
+    =============== */
+.btn{
+  position: relative;
+  display: flex;
+  height: 2.25rem;
   width: 11rem;
+  align-items: center;
+  justify-content: center;
   border-radius: 9999px;
   border-width: 1.8px;
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+  text-decoration-line: none;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+.btn--github{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+.btn--github:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+@keyframes content-change {
+    0% {
+      content: 'Edit Request';
+    }
+    100% {
+      content: 'Pull Request';
+    }
+  }
+.btn--github::after{
+  margin-left: 0px;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  --tw-content: 'Request Edit';
+  content: var(--tw-content);
+}
+.btn--github:hover::after{
+  margin-left: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 200ms;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    animation: content-change .1s ease-in .15s forwards;
+}
+.btn--github::before{
+  position: absolute;
+  left: 30px;
+  height: 20px;
+  width: 20px;
+  background-image: url('../img/icons/github-logo.svg');
+  background-size: cover;
+  opacity: 0;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  --tw-content: '';
+  content: var(--tw-content);
+}
+.btn--github:hover::before{
+  opacity: 1;
 }
 /* ===============
     Non-Tailwind classes

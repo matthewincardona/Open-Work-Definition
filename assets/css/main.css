@@ -60,8 +60,76 @@
     @apply font-black;
   }
 
-  button {
-    @apply transition-all text-sm text-black w-44 py-[5px] border-black border-[1.8px] rounded-full;
+  /* ===============
+    Buttons
+    =============== */
+
+  .btn {
+    @apply flex justify-center items-center no-underline relative transition-all text-sm text-black h-9 w-44 px-6 border-black border-[1.8px] rounded-full;
+  }
+
+  .btn--github {
+    @apply
+    transition-all
+    duration-200
+    ease-in
+    ;
+  }
+
+  .btn--github:hover {
+    @apply
+    text-white
+    bg-black;
+  }
+
+  @keyframes content-change {
+    0% {
+      content: 'Edit Request';
+    }
+    100% {
+      content: 'Pull Request';
+    }
+  }
+
+  .btn--github::after {
+    @apply
+    /* content-[''] */
+    content-['Request_Edit']
+    text-black
+    ml-0;
+  }
+
+  .btn--github:hover::after {
+    @apply
+    /* content-['Pull_Request'] */
+    transition-all
+    duration-200
+    delay-200
+    ease-in
+    text-white
+    ml-7;
+    animation: content-change .1s ease-in .15s forwards;
+  }
+
+  .btn--github::before {
+    @apply 
+    absolute 
+    content-[''] 
+    left-[30px]
+    bg-[url('../img/icons/github-logo.svg')] 
+    w-[20px] 
+    h-[20px] 
+    bg-cover
+    opacity-0
+    transition-opacity
+    duration-200
+    ease-in;
+  }
+
+  .btn--github:hover::before {
+    @apply 
+    opacity-100
+    ;
   }
 
   /* ===============
