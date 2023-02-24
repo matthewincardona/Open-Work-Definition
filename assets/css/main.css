@@ -15,7 +15,7 @@
     =============== */
 
     html {
-      @apply overflow-x-hidden
+      @apply overflow-x-hidden;
     }
 
   body {
@@ -40,6 +40,10 @@
 
   a {
     @apply underline text-primary-color inline-block;
+  }
+
+  p {
+    @apply  max-w-prose;
   }
 
   b {

@@ -357,6 +357,9 @@ a{
   color: var(--primary-color);
   text-decoration-line: underline;
 }
+p{
+  max-width: 65ch;
+}
 b{
   font-weight: 500;
 }
@@ -634,8 +637,8 @@ button{
 .left-\[-10\%\]{
   left: -10%;
 }
-.left-\[-14\%\]{
-  left: -14%;
+.left-\[-100\%\]{
+  left: -100%;
 }
 .left-\[-80px\]{
   left: -80px;
@@ -794,9 +797,6 @@ button{
 .w-\[100rem\]{
   width: 100rem;
 }
-.w-\[26rem\]{
-  width: 26rem;
-}
 .w-full{
   width: 100%;
 }
@@ -844,9 +844,6 @@ button{
 }
 .flex-col{
   flex-direction: column;
-}
-.flex-wrap{
-  flex-wrap: wrap;
 }
 .items-start{
   align-items: flex-start;
@@ -1138,9 +1135,6 @@ button{
   .sm\:grid{
     display: grid;
   }
-  .sm\:flex-nowrap{
-    flex-wrap: nowrap;
-  }
   .sm\:whitespace-nowrap{
     white-space: nowrap;
   }
@@ -1152,8 +1146,8 @@ button{
   .lg\:left-\[7\%\]{
     left: 7%;
   }
-  .lg\:top-\[-30\%\]{
-    top: -30%;
+  .lg\:top-\[-32\%\]{
+    top: -32%;
   }
   .lg\:order-\[-1\]{
     order: -1;
@@ -1196,9 +1190,6 @@ button{
   }
   .lg\:grid-cols-7{
     grid-template-columns: repeat(7, minmax(0, 1fr));
-  }
-  .lg\:flex-nowrap{
-    flex-wrap: nowrap;
   }
   .lg\:justify-center{
     justify-content: center;
