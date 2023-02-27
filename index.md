@@ -4,7 +4,7 @@ title: "Home"
 ---
 
 <!-- Hero -->
-<section class="relative p-12">
+<section class="relative p-6 sm:p-12">
     <img class="absolute z-[-1] top-[20px] left-[-80px] max-w-[80rem]" src="./assets/img/background-shapes/hero-bg.svg"
         alt="">
     <div class="flex justify-start items-center py-24 pt-12 sm:pt-20">
@@ -21,7 +21,7 @@ title: "Home"
 <hr id="goal" class="section-divider bg-black border-none h-[2px] mt-[1rem]">
 
 <!-- Goal of Open Work -->
-<section class="p-12">
+<section class="p-6 sm:p-12">
     <div class="relative inner--small grid lg:grid-cols-2 justify-center lg:gap-12">
         <img class="absolute z-[-1] top-[-25%] left-[-34%] sm:top-[-28%] sm:left-[-10%] lg:top-[-51%] lg:left-[-20%] max-w-[80rem]"
             src="./assets/img/background-shapes/open-work-goal-bg.svg" alt="">
@@ -47,17 +47,17 @@ title: "Home"
 <hr id="definition" class="section-divider">
 
 <!-- Definition of Open Work -->
-<section class="relative p-12">
+<section class="relative p-6 sm:p-12">
     <img class="absolute z-[-1] scale-125 top-20" src="assets/img/background-shapes/open-def-bg.svg" alt="">
-    <h2 class="text-center mb-20"><b>Open Work</b> Definition Version 0.1</h2>
+    <h2 class="text-center mb-10 sm:mb-20"><b>Open Work</b> Definition Version 0.1</h2>
     <div class="inner--small flex justify-center flex-col m-auto">
-        <div>
+        <div class="hidden sm:block">
             <div class="ring-2 ring-black border-b-0 rounded-tr-2xl rounded-tl-2xl bg-[#C5CFD6] h-8 w-full flex items-center">
                 <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-6 h-[11px] w-[11px] rounded-full"></div>
                 <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-2 h-[11px] w-[11px] rounded-full"></div>
                 <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-2 h-[11px] w-[11px] rounded-full"></div>
             </div>
-            <div class="ring-2 ring-black rounded-b-3xl rounded-bl-3xl mb-20 h-fit w-full border-[#F2F2F2] border-[16px]">
+            <div class="ring-2 ring-black rounded-b-3xl rounded-bl-3xl h-fit w-full border-[#F2F2F2] border-[16px]">
                 <div class="bg-white p-5 sm:p-8 lg:p-12 scale-[101%] rounded-lg">
     
                     <h3 class="subtitle">Definition of Open Work</h3>
@@ -73,12 +73,24 @@ title: "Home"
                 </div>
             </div>
         </div>
+        <div class="block sm:hidden p-6 rounded-lg">
+            <h3 class="subtitle">Definition of Open Work</h3>
+            <br>
+            <p class="subtitle font-normal text-lg">An Open Work delineates the meaning of “Open” with respect to work products and projects that are
+                released into the public domain or under a license recognized by an entity such as, but not limited
+                to,
+                the Open Source Initiative (OSI), the Free Software Foundation GNU, the Creative Commons (CC) or the
+                Open Knowledge Foundation (OKF) with the intent of promoting a robust community of collaboration
+                around
+                the work itself and other work that it may interoperate with.</p>
+
+        </div>
         <img class="hidden sm:block z-10 mt-[-6rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
     </div>
 
     <!-- definition of... mobile accordions -->
     <!-- accordions from tw-elements library -->
-    <div class="block lg:hidden mt-24 max-w-lg m-auto accordion space-y-6" id="accordionCol3">
+    <div class="block lg:hidden mt-14 sm:mt-24 max-w-lg m-auto accordion space-y-6" id="accordionCol3">
         <!-- definition of work -->
         <div
             class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
@@ -279,7 +291,7 @@ title: "Home"
 <hr id="roots" class="section-divider">
 
 <!-- The Roots of Open Work -->
-<section class="relative p-12">
+<section class="relative p-6 sm:p-12">
     <img class="w-[100rem] absolute z-[-1] right-[-4%] bottom-[-150px]"
         src="./assets/img/background-shapes/open-work-roots-bg.svg" alt="">
     <h2 class="text-center">The <b>Roots</b> of "Open Work"</h2>
@@ -331,7 +343,7 @@ title: "Home"
 <hr id="types-of-open-work" class="section-divider">
 
 <!-- Types of open work -->
-<section class="p-12 relative pb-20">
+<section class="p-6 sm:p-12 relative pb-20">
     <img class="absolute z-[-1] scale-[1] translate-x-[-80px] top-20"
         src="assets/img/background-shapes/types-of-open-work-bg.svg" alt="">
     <h2 class="text-center mb-14">Types of <b>Open Work</b></h2>
@@ -726,7 +738,7 @@ title: "Home"
 <hr id="open@rit" class="section-divider">
 
 <!-- Ending Note -->
-<section class="relative p-12">
+<section class="relative p-6 sm:p-12">
     <img class="absolute z-[-1] w-96 left-[2%] top-[-3%] lg:left-[3%] lg:top-[4%]"
         src="assets/img/background-shapes/end-note-bg.svg" alt="">
     <div class="lg:mt-24 grid lg:grid-cols-2 inner--small items-center gap-12 justify-center">
@@ -740,6 +752,6 @@ title: "Home"
             </p>
             <a href="https://github.com/FOSSRIT/open-work-definition/" class="btn btn--github mt-8"></a>
         </div>
-        <img src="./assets/img/illustrations/two-people-talking.svg" class="max-w-[25rem]" alt="">
+        <img src="./assets/img/illustrations/two-people-talking.svg" class="w-[100%] max-w-[25rem]" alt="">
     </div>
 </section>
