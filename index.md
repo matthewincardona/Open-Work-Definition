@@ -12,7 +12,8 @@ title: "Home"
             <h1>Open Work<br>Definition</h1>
             <p class="text-2xl subtitle font-normal">Subtitle will be placed here<br>with 36 pt regular weight.</p>
             <a href="https://github.com/FOSSRIT/open-work-definition/" class="btn btn--github mt-6 mb-12"></a>
-            <p class="text-sm">This project is maintained by <a href="https://openr.it/">Open@RIT</a><br>Hosted on GitHub Pages</p>
+            <p class="text-sm">This project is maintained by <a href="https://openr.it/">Open@RIT</a><br>Hosted on
+                GitHub Pages</p>
         </div>
     </div>
 </section>
@@ -22,24 +23,25 @@ title: "Home"
 <!-- Goal of Open Work -->
 <section class="p-12">
     <div class="relative inner--small grid lg:grid-cols-2 justify-center lg:gap-12">
-    <img class="absolute z-[-1] top-[-25%] left-[-34%] sm:top-[-28%] sm:left-[-10%] lg:top-[-51%] lg:left-[-20%] max-w-[80rem]"
-        src="./assets/img/background-shapes/open-work-goal-bg.svg" alt="">
-    <div class="">
-        <h2 class="sm:whitespace-nowrap">Why Are We Using The Term <br><b>Open Work</b>?</h2>
-        <p class="subtitle">Goal of Open Work</p>
-        <hr class="subtitle-divider">
-        <p>People produce and collaborate on all different types of work within academia and beyond. Different types of
-            works can be released and developed among communities of practice in different ways.
-            <br><br>
-            To treat each type of Open Work as its own silo hinders the ability for these works to be used
-            interchangeably among each other.
-            <br><br>
-            We use the term Open Work to talk about a larger theory of practice in which Works of all types are
-            developed, distributed, and collaborated upon.
-        </p>
+        <img class="absolute z-[-1] top-[-25%] left-[-34%] sm:top-[-28%] sm:left-[-10%] lg:top-[-51%] lg:left-[-20%] max-w-[80rem]"
+            src="./assets/img/background-shapes/open-work-goal-bg.svg" alt="">
+        <div class="">
+            <h2 class="sm:whitespace-nowrap">Why Are We Using The Term <br><b>Open Work</b>?</h2>
+            <p class="subtitle">Goal of Open Work</p>
+            <hr class="subtitle-divider">
+            <p >People produce and collaborate on all different types of work within academia and beyond. Different types
+                of
+                works can be released and developed among communities of practice in different ways.
+                <br><br>
+                To treat each type of Open Work as its own silo hinders the ability for these works to be used
+                interchangeably among each other.
+                <br><br>
+                We use the term Open Work to talk about a larger theory of practice in which Works of all types are
+                developed, distributed, and collaborated upon.
+            </p>
+        </div>
+        <img class="lg:place-self-end" src="./assets/img/illustrations/goal-of-open-work.svg" alt="">
     </div>
-    <img class="lg:place-self-end" src="./assets/img/illustrations/goal-of-open-work.svg" alt="">
-</div>
 </section>
 
 <hr id="definition" class="section-divider">
@@ -49,15 +51,29 @@ title: "Home"
     <img class="absolute z-[-1] scale-125 top-20" src="assets/img/background-shapes/open-def-bg.svg" alt="">
     <h2 class="text-center mb-20"><b>Open Work</b> Definition Version 0.1</h2>
     <div class="inner--small flex justify-center flex-col m-auto">
-        <div class="relative">
-            <img src="./assets/img/illustrations/browser-window.svg" alt="">
-            <div class="p-8 px-12 absolute top-10 left-0">
-                <h3 class="subtitle">Definition of Open Work</h3>
-                <br>
-            <p class="subtitle font-normal text-lg">An Open Work delineates the meaning of “Open” with respect to work products and projects that are released into the public domain or under a license recognized by an entity such as, but not limited to, the Open Source Initiative (OSI), the Free Software Foundation GNU, the Creative Commons (CC) or the Open Knowledge Foundation (OKF) with the intent of promoting a robust community of collaboration around the work itself and other work that it may interoperate with.</p>
+        <div>
+            <div class="ring-2 ring-black border-b-0 rounded-tr-2xl rounded-tl-2xl bg-[#C5CFD6] h-8 w-full flex items-center">
+                <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-6 h-[11px] w-[11px] rounded-full"></div>
+                <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-2 h-[11px] w-[11px] rounded-full"></div>
+                <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-2 h-[11px] w-[11px] rounded-full"></div>
+            </div>
+            <div class="ring-2 ring-black rounded-b-3xl rounded-bl-3xl mb-20 h-fit w-full border-[#F2F2F2] border-[16px]">
+                <div class="bg-white p-5 sm:p-8 lg:p-12 scale-[101%] rounded-lg">
+    
+                    <h3 class="subtitle">Definition of Open Work</h3>
+                    <br>
+                    <p class="subtitle font-normal text-lg">An Open Work delineates the meaning of “Open” with respect to work products and projects that are
+                        released into the public domain or under a license recognized by an entity such as, but not limited
+                        to,
+                        the Open Source Initiative (OSI), the Free Software Foundation GNU, the Creative Commons (CC) or the
+                        Open Knowledge Foundation (OKF) with the intent of promoting a robust community of collaboration
+                        around
+                        the work itself and other work that it may interoperate with.</p>
+    
+                </div>
             </div>
         </div>
-        <img class="z-10 mt-[-6rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
+        <img class="hidden sm:block z-10 mt-[-6rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
     </div>
 
     <!-- definition of... mobile accordions -->
