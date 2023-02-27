@@ -44,7 +44,7 @@
   }
 
   a {
-    @apply underline text-primary-color inline-block;
+    @apply underline transition-all hover:text-blue-400 text-primary-color inline-block;
   }
 
   p {

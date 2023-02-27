@@ -364,6 +364,13 @@ a{
   display: inline-block;
   color: var(--primary-color);
   text-decoration-line: underline;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+a:hover{
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 p{
   max-width: 65ch;
