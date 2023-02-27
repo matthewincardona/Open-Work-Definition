@@ -49,7 +49,7 @@ title: "Home"
 <!-- Definition of Open Work -->
 <section class="relative p-6 sm:p-12">
     <img class="absolute z-[-1] scale-125 top-20" src="assets/img/background-shapes/open-def-bg.svg" alt="">
-    <h2 class="text-center mb-10 sm:mb-20"><b>Open Work</b> Definition Version 0.1</h2>
+    <h2 class="text-center mb-10 sm:mb-16"><b>Open Work</b> Definition Version 0.1</h2>
     <div class="inner--small flex justify-center flex-col m-auto">
         <div class="hidden sm:block">
             <div class="ring-2 ring-black border-b-0 rounded-tr-2xl rounded-tl-2xl bg-[#C5CFD6] h-8 w-full flex items-center">
@@ -85,7 +85,7 @@ title: "Home"
                 the work itself and other work that it may interoperate with.</p>
 
         </div>
-        <img class="hidden sm:block z-10 mt-[-6rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
+        <img class="hidden sm:block z-10 mt-[-2.5rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
     </div>
 
     <!-- definition of... mobile accordions -->
