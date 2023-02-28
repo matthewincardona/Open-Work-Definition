@@ -27,6 +27,20 @@
     @apply font-heading text-[#363636] font-light;
   }
 
+  /* fade-in animation for main content (everything but the header & footer) */
+  .fade-in {
+    animation: fade-in .3s .1s both;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
   h1 {
     @apply text-6xl font-semibold leading-[4rem] mb-4;
   }
