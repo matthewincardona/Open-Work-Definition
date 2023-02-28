@@ -10,7 +10,7 @@ title: "Home"
     <div class="flex justify-start items-center py-24 pt-12 sm:pt-20">
         <div class="inner--large">
             <h1>Open Work<br>Definition</h1>
-            <p class="text-2xl subtitle font-normal">Subtitle will be placed here<br>with 36 pt regular weight.</p>
+            <p class="text-2xl subtitle font-normal">An inclusive definition<br>for all kinds of Work.</p>
             <a href="https://github.com/FOSSRIT/open-work-definition/" class="btn btn--github mt-6 mb-12"></a>
             <p class="text-sm">This project is maintained by <a href="https://openr.it/">Open@RIT</a><br>Hosted on
                 GitHub Pages</p>
@@ -463,8 +463,7 @@ title: "Home"
                             distribute the code as they see fit.
                             <br>
                             <br>
-                            <a href="https://www.redhat.com/en/topics/open-source/what-is-open-source">Red Hat, Inc.
-                            </a>
+                            <a href="https://opensource.org/osd/"> OSI Open Source Definition</a>
                         </p>
                     </div>
                 </div>
@@ -535,10 +534,7 @@ title: "Home"
                         <p>A data set that is released freely for any to use and modify.
                             <br>
                             <br>
-                            Open definition: <a href="https://opendefinition.org/">Open Knowledge Foundation </a>
-                            <br>
-                            <br>
-                            Open knowledge: <a href="https://okfn.org/opendata/">Open Knowledge Foundation </a>
+                            <a href="https://okfn.org/opendata/">OKF Open Data Definition</a>
                         </p>
                     </div>
                 </div>
@@ -603,12 +599,9 @@ title: "Home"
                 <div id="flush-collapseOpenScience" class="!visible hidden border-0" data-te-collapse-item
                     aria-labelledby="flush-headingOpenScience" data-te-parent="#typesOfOpenWorkCol2">
                     <div class="py-4 px-5">
-                        <p>Open source hardware is hardware whose design is made publicly available so that anyone can
-                            study,
-                            modify, distribute, make, and sell the design or hardware based on that design.
+                        <p>Open science encompasses unhindered access to scientific articles, access to data from public research, and collaborative research enabled by ICT tools and incentives.                            <br>
                             <br>
-                            <br>
-                            <a href="https://www.oshwa.org/definition/">Open Source Hardware Association</a>
+                            <a href="https://www.oecd.org/sti/inno/open-science.htm">OECD Open Science Definition</a>
                         </p>
                     </div>
                 </div>
