@@ -37,20 +37,26 @@
   <!-- nav drawer -->
   <nav class="pt-8 p-6 sm:p-12 border-black border-b-[2px] border-solid" id="mobile-menu">
     <ul class="subtitle font-medium text-lg space-y-6 py-4 flex-col justify-start text-[#363636]">
-      <li><a class="no-underline" href="#goal">Goal of Open Work</a></li>
+      <li><a onclick="closeMobileMenuOnNavigate()" class="no-underline" href="#goal">Goal of Open Work</a></li>
       <hr class="border-[#D4D4D4] border-b-[1.2px]">
-      <li><a class="no-underline" href="#definition">Definition of Open Work</a></li>
+      <li><a onclick="closeMobileMenuOnNavigate()" class="no-underline" href="#definition">Definition of Open Work</a></li>
       <hr class="border-[#D4D4D4] border-b-[1.2px]">
-      <li><a class="no-underline" href="#roots">Roots of Open Work</a></li>
+      <li><a onclick="closeMobileMenuOnNavigate()" class="no-underline" href="#roots">Roots of Open Work</a></li>
       <hr class="border-[#D4D4D4] border-b-[1.2px]">
-      <li><a class="no-underline" href="#types-of-open-work">Types of Open Work</a></li>
+      <li><a onclick="closeMobileMenuOnNavigate()" class="no-underline" href="#types-of-open-work">Types of Open Work</a></li>
       <hr class="border-[#D4D4D4] border-b-[1.2px]">
-      <li><a class="no-underline" href="#open@rit">Open@RIT</a></li>
+      <li><a onclick="closeMobileMenuOnNavigate()" class="no-underline" href="#open@rit">Open@RIT</a></li>
       <hr class="border-[#D4D4D4] border-b-[1.2px]">
       <li><a class="" href="https://github.com/FOSSRIT/open-work-definition/">GitHub</a></li>
     </ul>
   </nav>
 </div>
+
+<script>
+  function closeMobileMenuOnNavigate() {
+    document.getElementById("mobile-menu-toggle").checked = false;
+  }
+</script>
 </div>
   <body>
     <main class="w-full mt-10 max-w-6xl m-auto">
