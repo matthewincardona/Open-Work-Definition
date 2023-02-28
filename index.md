@@ -36,7 +36,7 @@ title: "Home"
                 To treat each type of Open Work as its own silo hinders the ability for these works to be used
                 interchangeably among each other.
                 <br><br>
-                We use the term Open Work to talk about a larger theory of practice in which Works of all types are
+                We use the term Open Work to talk about a larger theory of practice in which works of all types are
                 developed, distributed, and collaborated upon.
             </p>
         </div>
@@ -73,7 +73,7 @@ title: "Home"
                 </div>
             </div>
         </div>
-        <div class="block sm:hidden p-6 rounded-lg">
+        <div class="block sm:hidden">
             <h3 class="subtitle">Definition of Open Work</h3>
             <br>
             <p class="subtitle font-normal text-lg">An Open Work delineates the meaning of “Open” with respect to work products and projects that are
