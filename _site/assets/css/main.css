@@ -383,7 +383,7 @@ a{
 }
 a:hover{
   --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 p{
   max-width: 65ch;
